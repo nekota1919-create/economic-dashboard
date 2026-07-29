@@ -1,4 +1,50 @@
 {
-  "generated_at": "2026-07-29T06:20:24.831011+00:00",
-  "events": []
+  "generated_at": "2026-07-29T18:00:22.551189+00:00",
+  "events": [
+    {
+      "indicator": "us_fomc",
+      "label": "FOMC政策金利(誘導目標レンジ上限)",
+      "country": "US",
+      "ff_title": "Federal Funds Rate",
+      "impact": "High",
+      "datetime_utc": "2026-07-29T18:00:00+00:00",
+      "datetime_jst": "2026-07-30T03:00:00+09:00",
+      "forecast": "3.75%",
+      "previous": "3.75%",
+      "actual_period": "2026-07-29",
+      "actual_first_release": "3.75%",
+      "actual_first_release_date": "2026-07-29",
+      "actual_latest": "3.75%",
+      "actual_latest_date": "2026-07-29",
+      "was_revised": false,
+      "data_note": null,
+      "market_reaction": {
+        "usdjpy": {
+          "ticker": "JPY=X",
+          "prev_date": "2026-07-28",
+          "prev_close": 163.771,
+          "post_date": "2026-07-29",
+          "post_close": 163.458,
+          "change_pct": -0.191
+        },
+        "sp500": {
+          "ticker": "^GSPC",
+          "prev_date": "2026-07-28",
+          "prev_close": 7428.7798,
+          "post_date": "2026-07-29",
+          "post_close": 7409.75,
+          "change_pct": -0.256
+        },
+        "us10y": {
+          "ticker": "^TNX",
+          "prev_date": "2026-07-28",
+          "prev_close": 4.604,
+          "post_date": "2026-07-29",
+          "post_close": 4.639,
+          "change_pct": 0.76
+        }
+      },
+      "beat_forecast": null
+    }
+  ]
 }
