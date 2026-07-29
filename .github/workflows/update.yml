@@ -1,3 +1,4 @@
+# Daily/thrice-daily data refresh for the economic dashboard
 name: Update economic dashboard data
 
 on:
