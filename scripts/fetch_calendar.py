@@ -23,11 +23,12 @@ def _match_indicator(title: str, ff_country: str) -> str | None:
     region = FF_COUNTRY_TO_REGION.get(ff_country)
     if region is None:
         return None
+    title_norm = title.strip().lower()
     for key, keywords in FF_TITLE_KEYWORDS.items():
         if INDICATORS[key]["country"] != region:
             continue
         for kw in keywords:
-            if kw.lower() in title.lower():
+            if kw.strip().lower() == title_norm:
                 return key
     return None
 

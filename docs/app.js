@@ -1,4 +1,4 @@
-const COUNTRY_LABEL = { US: "米", JP: "日" };
+const COUNTRY_LABEL = { US: "米", JP: "日", EU: "欧", UK: "英" };
 
 function fmtJst(iso) {
   const d = new Date(iso);

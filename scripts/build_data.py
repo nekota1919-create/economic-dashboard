@@ -48,11 +48,11 @@ def _recent_surprise_history(indicator_key: str, existing_results: list[dict[str
     return [{"beat_forecast": r["beat_forecast"]} for r in matches[:n]]
 
 
-def _format_value(value_str: str | None, unit: str) -> str | None:
+def _format_value(value_str: str | None, unit: str, scale: float = 1) -> str | None:
     if value_str is None:
         return None
     try:
-        f = float(value_str)
+        f = float(value_str) * scale
     except ValueError:
         return value_str
     formatted = f"{f:.2f}".rstrip("0").rstrip(".")
@@ -64,6 +64,7 @@ def _fetch_actual_for_event(event: dict[str, Any]) -> dict[str, Any]:
     indicator_key = event["indicator"]
     meta = INDICATORS[indicator_key]
     unit = meta.get("unit", "")
+    scale = meta.get("fred_value_scale", 1)
 
     if "fred_series" in meta:
         data = fetch_fred.fetch_us_indicator(indicator_key)
@@ -71,9 +72,9 @@ def _fetch_actual_for_event(event: dict[str, Any]) -> dict[str, Any]:
             return {"actual_first_release": None, "actual_latest": None, "was_revised": None, "data_note": "FRED取得失敗"}
         return {
             "actual_period": data["period"],
-            "actual_first_release": _format_value(data["first_release_value"], unit),
+            "actual_first_release": _format_value(data["first_release_value"], unit, scale),
             "actual_first_release_date": data["first_release_date"],
-            "actual_latest": _format_value(data["latest_value"], unit),
+            "actual_latest": _format_value(data["latest_value"], unit, scale),
             "actual_latest_date": data["latest_revision_date"],
             "was_revised": data["was_revised"],
             "data_note": None,

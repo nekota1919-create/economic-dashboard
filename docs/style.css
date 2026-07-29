@@ -131,6 +131,8 @@ main {
 
 .badge.country-US { background: #3b82f6; }
 .badge.country-JP { background: #ef4444; }
+.badge.country-EU { background: #7c3aed; }
+.badge.country-UK { background: #059669; }
 .badge.impact-High { background: var(--high); }
 .badge.impact-Medium { background: var(--medium); }
 .badge.impact-Low { background: var(--low); }
