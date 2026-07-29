@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>経済指標ダッシュボード</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>経済指標ダッシュボード</h1>
+    <nav class="tabs">
+      <a href="index.html" class="active">今週の予想</a>
+      <a href="results.html">発表結果</a>
+    </nav>
+  </header>
+  <main>
+    <p class="updated-at" id="updated-at"></p>
+    <div id="upcoming-container"></div>
+    <p class="disclaimer">
+      予想・シナリオはForex Factory公開カレンダー等をもとに機械的に生成した参考情報です。投資助言ではありません。
+    </p>
+  </main>
+  <script src="app.js"></script>
+  <script>
+    fetchJson("data/upcoming.json")
+      .then((data) => {
+        renderUpdatedAt(data.generated_at, document.getElementById("updated-at"));
+        renderUpcoming(data.events, document.getElementById("upcoming-container"));
+      })
+      .catch((err) => {
+        document.getElementById("upcoming-container").innerHTML =
+          '<div class="empty-state">データの読み込みに失敗しました</div>';
+        console.error(err);
+      });
+  </script>
+</body>
+</html>

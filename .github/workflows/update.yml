@@ -1,0 +1,42 @@
+name: Update economic dashboard data
+
+on:
+  schedule:
+    - cron: "0 21 * * *"  # 06:00 JST
+    - cron: "0 4 * * *"   # 13:00 JST
+    - cron: "0 14 * * *"  # 23:00 JST
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Build data
+        env:
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+          ESTAT_APP_ID: ${{ secrets.ESTAT_APP_ID }}
+        run: python scripts/build_data.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/data/upcoming.json docs/data/results.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update dashboard data ($(date -u +'%Y-%m-%d %H:%M UTC'))"
+            git push
+          fi

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>発表結果 | 経済指標ダッシュボード</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>経済指標ダッシュボード</h1>
+    <nav class="tabs">
+      <a href="index.html">今週の予想</a>
+      <a href="results.html" class="active">発表結果</a>
+    </nav>
+  </header>
+  <main>
+    <p class="updated-at" id="updated-at"></p>
+    <div id="results-container"></div>
+    <p class="disclaimer">
+      実績値は米指標がFRED、日銀決定はBOJ公式声明に基づきます。市場反応は発表前営業日終値と当日/翌営業日終値の比較です。
+    </p>
+  </main>
+  <script src="app.js"></script>
+  <script>
+    fetchJson("data/results.json")
+      .then((data) => {
+        renderUpdatedAt(data.generated_at, document.getElementById("updated-at"));
+        renderResults(data.events, document.getElementById("results-container"));
+      })
+      .catch((err) => {
+        document.getElementById("results-container").innerHTML =
+          '<div class="empty-state">データの読み込みに失敗しました</div>';
+        console.error(err);
+      });
+  </script>
+</body>
+</html>

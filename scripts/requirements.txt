@@ -1,0 +1,7 @@
+requests
+yfinance
+pandas
+pypdf
+python-dotenv
+truststore
+certifi
