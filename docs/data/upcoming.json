@@ -1,29 +1,6 @@
 {
-  "generated_at": "2026-07-30T00:15:51.429698+00:00",
+  "generated_at": "2026-07-30T11:30:33.453603+00:00",
   "events": [
-    {
-      "indicator": "boe_rate",
-      "label": "BOE政策金利(SONIA参照)",
-      "country": "UK",
-      "ff_title": "Official Bank Rate",
-      "impact": "High",
-      "datetime_utc": "2026-07-30T11:00:00+00:00",
-      "datetime_jst": "2026-07-30T20:00:00+09:00",
-      "forecast": "3.75%",
-      "previous": "3.75%",
-      "scenario": {
-        "forecast_value": 3.75,
-        "previous_value": 3.75,
-        "trend_label": "前回から横ばいの予想",
-        "text_lines": [
-          "予想: 3.75% / 前回: 3.75%(前回から横ばいの予想)",
-          "上振れ(利上げ(タカ派)): 予想よりタカ派な決定の場合、ポンド高に振れやすいとされる",
-          "下振れ(利下げ/据置(ハト派)): 予想よりハト派な決定の場合、ポンド安に振れやすいとされる",
-          "直近のサプライズ傾向: データ蓄積中",
-          "※機械的に生成した一般論の参考情報であり、投資助言ではありません。"
-        ]
-      }
-    },
     {
       "indicator": "us_gdp",
       "label": "米GDP(前期比年率)",

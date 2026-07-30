@@ -1,6 +1,43 @@
 {
-  "generated_at": "2026-07-30T00:15:51.429698+00:00",
+  "generated_at": "2026-07-30T11:30:33.453603+00:00",
   "events": [
+    {
+      "indicator": "boe_rate",
+      "label": "BOE政策金利(SONIA参照)",
+      "country": "UK",
+      "ff_title": "Official Bank Rate",
+      "impact": "High",
+      "datetime_utc": "2026-07-30T11:00:00+00:00",
+      "datetime_jst": "2026-07-30T20:00:00+09:00",
+      "forecast": "3.75%",
+      "previous": "3.75%",
+      "actual_period": "2026-07-28",
+      "actual_first_release": "3.73%",
+      "actual_first_release_date": "2026-07-30",
+      "actual_latest": "3.73%",
+      "actual_latest_date": "2026-07-30",
+      "was_revised": false,
+      "data_note": null,
+      "market_reaction": {
+        "usdjpy": {
+          "ticker": "JPY=X",
+          "prev_date": "2026-07-29",
+          "prev_close": 163.864,
+          "post_date": "2026-07-30",
+          "post_close": 162.937,
+          "change_pct": -0.566
+        },
+        "nikkei225": {
+          "ticker": "^N225",
+          "prev_date": "2026-07-29",
+          "prev_close": 61434.1914,
+          "post_date": "2026-07-30",
+          "post_close": 61867.4297,
+          "change_pct": 0.705
+        }
+      },
+      "beat_forecast": false
+    },
     {
       "indicator": "us_fomc",
       "label": "FOMC政策金利(誘導目標レンジ上限)",
@@ -31,9 +68,9 @@
           "ticker": "^N225",
           "prev_date": "2026-07-28",
           "prev_close": 62364.9219,
-          "post_date": "2026-07-30",
-          "post_close": 61275.2383,
-          "change_pct": -1.747
+          "post_date": "2026-07-29",
+          "post_close": 61434.1914,
+          "change_pct": -1.492
         },
         "sp500": {
           "ticker": "^GSPC",
