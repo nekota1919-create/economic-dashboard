@@ -1,6 +1,141 @@
 {
-  "generated_at": "2026-07-30T11:30:33.453603+00:00",
+  "generated_at": "2026-07-30T18:59:26.792090+00:00",
   "events": [
+    {
+      "indicator": "us_gdp",
+      "label": "米GDP(前期比年率)",
+      "country": "US",
+      "ff_title": "Advance GDP q/q",
+      "impact": "High",
+      "datetime_utc": "2026-07-30T12:30:00+00:00",
+      "datetime_jst": "2026-07-30T21:30:00+09:00",
+      "forecast": "2.1%",
+      "previous": "2.0%",
+      "actual_period": "2026-04-01",
+      "actual_first_release": "1.5%",
+      "actual_first_release_date": "2026-07-30",
+      "actual_latest": "1.5%",
+      "actual_latest_date": "2026-07-30",
+      "was_revised": false,
+      "data_note": null,
+      "market_reaction": {
+        "usdjpy": {
+          "ticker": "JPY=X",
+          "prev_date": "2026-07-29",
+          "prev_close": 163.864,
+          "post_date": "2026-07-30",
+          "post_close": 158.934,
+          "change_pct": -3.009
+        },
+        "sp500": {
+          "ticker": "^GSPC",
+          "prev_date": "2026-07-29",
+          "prev_close": 7316.1499,
+          "post_date": "2026-07-30",
+          "post_close": 7430.5601,
+          "change_pct": 1.564
+        },
+        "us10y": {
+          "ticker": "^TNX",
+          "prev_date": "2026-07-29",
+          "prev_close": 4.622,
+          "post_date": "2026-07-30",
+          "post_close": 4.667,
+          "change_pct": 0.974
+        }
+      },
+      "beat_forecast": false
+    },
+    {
+      "indicator": "us_pce",
+      "label": "米PCEコア物価指数(前月比)",
+      "country": "US",
+      "ff_title": "Core PCE Price Index m/m",
+      "impact": "High",
+      "datetime_utc": "2026-07-30T12:30:00+00:00",
+      "datetime_jst": "2026-07-30T21:30:00+09:00",
+      "forecast": "0.2%",
+      "previous": "0.3%",
+      "actual_period": "2026-06-01",
+      "actual_first_release": "0.13%",
+      "actual_first_release_date": "2026-07-30",
+      "actual_latest": "0.13%",
+      "actual_latest_date": "2026-07-30",
+      "was_revised": false,
+      "data_note": null,
+      "market_reaction": {
+        "usdjpy": {
+          "ticker": "JPY=X",
+          "prev_date": "2026-07-29",
+          "prev_close": 163.864,
+          "post_date": "2026-07-30",
+          "post_close": 158.934,
+          "change_pct": -3.009
+        },
+        "sp500": {
+          "ticker": "^GSPC",
+          "prev_date": "2026-07-29",
+          "prev_close": 7316.1499,
+          "post_date": "2026-07-30",
+          "post_close": 7430.5601,
+          "change_pct": 1.564
+        },
+        "us10y": {
+          "ticker": "^TNX",
+          "prev_date": "2026-07-29",
+          "prev_close": 4.622,
+          "post_date": "2026-07-30",
+          "post_close": 4.667,
+          "change_pct": 0.974
+        }
+      },
+      "beat_forecast": false
+    },
+    {
+      "indicator": "us_jobless_claims",
+      "label": "米新規失業保険申請件数",
+      "country": "US",
+      "ff_title": "Unemployment Claims",
+      "impact": "Medium",
+      "datetime_utc": "2026-07-30T12:30:00+00:00",
+      "datetime_jst": "2026-07-30T21:30:00+09:00",
+      "forecast": "201K",
+      "previous": "187K",
+      "actual_period": "2026-07-25",
+      "actual_first_release": "197K",
+      "actual_first_release_date": "2026-07-30",
+      "actual_latest": "197K",
+      "actual_latest_date": "2026-07-30",
+      "was_revised": false,
+      "data_note": null,
+      "market_reaction": {
+        "usdjpy": {
+          "ticker": "JPY=X",
+          "prev_date": "2026-07-29",
+          "prev_close": 163.864,
+          "post_date": "2026-07-30",
+          "post_close": 158.934,
+          "change_pct": -3.009
+        },
+        "sp500": {
+          "ticker": "^GSPC",
+          "prev_date": "2026-07-29",
+          "prev_close": 7316.1499,
+          "post_date": "2026-07-30",
+          "post_close": 7430.5601,
+          "change_pct": 1.564
+        },
+        "us10y": {
+          "ticker": "^TNX",
+          "prev_date": "2026-07-29",
+          "prev_close": 4.622,
+          "post_date": "2026-07-30",
+          "post_close": 4.667,
+          "change_pct": 0.974
+        }
+      },
+      "beat_forecast": false
+    },
     {
       "indicator": "boe_rate",
       "label": "BOE政策金利(SONIA参照)",
@@ -24,16 +159,24 @@
           "prev_date": "2026-07-29",
           "prev_close": 163.864,
           "post_date": "2026-07-30",
-          "post_close": 162.937,
-          "change_pct": -0.566
+          "post_close": 158.934,
+          "change_pct": -3.009
         },
-        "nikkei225": {
-          "ticker": "^N225",
+        "sp500": {
+          "ticker": "^GSPC",
           "prev_date": "2026-07-29",
-          "prev_close": 61434.1914,
+          "prev_close": 7316.1499,
           "post_date": "2026-07-30",
-          "post_close": 61867.4297,
-          "change_pct": 0.705
+          "post_close": 7430.5601,
+          "change_pct": 1.564
+        },
+        "us10y": {
+          "ticker": "^TNX",
+          "prev_date": "2026-07-29",
+          "prev_close": 4.622,
+          "post_date": "2026-07-30",
+          "post_close": 4.667,
+          "change_pct": 0.974
         }
       },
       "beat_forecast": false
@@ -48,11 +191,11 @@
       "datetime_jst": "2026-07-30T03:00:00+09:00",
       "forecast": "3.75%",
       "previous": "3.75%",
-      "actual_period": "2026-07-29",
+      "actual_period": "2026-07-30",
       "actual_first_release": "3.75%",
-      "actual_first_release_date": "2026-07-29",
+      "actual_first_release_date": "2026-07-30",
       "actual_latest": "3.75%",
-      "actual_latest_date": "2026-07-29",
+      "actual_latest_date": "2026-07-30",
       "was_revised": false,
       "data_note": null,
       "market_reaction": {
