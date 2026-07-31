@@ -1,28 +1,4 @@
 {
-  "generated_at": "2026-07-31T11:49:12.848710+00:00",
-  "events": [
-    {
-      "indicator": "us_michigan_sentiment",
-      "label": "米ミシガン大学消費者信頼感指数",
-      "country": "US",
-      "ff_title": "Revised UoM Consumer Sentiment",
-      "impact": "Medium",
-      "datetime_utc": "2026-07-31T14:00:00+00:00",
-      "datetime_jst": "2026-07-31T23:00:00+09:00",
-      "forecast": "53.9",
-      "previous": "54.4",
-      "scenario": {
-        "forecast_value": 53.9,
-        "previous_value": 54.4,
-        "trend_label": "前回より鈍化の予想",
-        "text_lines": [
-          "予想: 53.9 / 前回: 54.4(前回より鈍化の予想)",
-          "上振れ(消費者心理の改善): 予想を上回った場合、消費の先行き期待からドル高(円安)に振れやすいとされる",
-          "下振れ(消費者心理の悪化): 予想を下回った場合、先行き懸念からドル安(円高)に振れやすいとされる",
-          "直近のサプライズ傾向: データ蓄積中",
-          "※機械的に生成した一般論の参考情報であり、投資助言ではありません。"
-        ]
-      }
-    }
-  ]
+  "generated_at": "2026-07-31T18:56:24.389392+00:00",
+  "events": []
 }

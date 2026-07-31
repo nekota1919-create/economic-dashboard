@@ -1,6 +1,51 @@
 {
-  "generated_at": "2026-07-31T11:49:12.848710+00:00",
+  "generated_at": "2026-07-31T18:56:24.389392+00:00",
   "events": [
+    {
+      "indicator": "us_michigan_sentiment",
+      "label": "米ミシガン大学消費者信頼感指数",
+      "country": "US",
+      "ff_title": "Revised UoM Consumer Sentiment",
+      "impact": "Medium",
+      "datetime_utc": "2026-07-31T14:00:00+00:00",
+      "datetime_jst": "2026-07-31T23:00:00+09:00",
+      "forecast": "53.9",
+      "previous": "54.4",
+      "actual_period": "2026-06-01",
+      "actual_first_release": "49.5",
+      "actual_first_release_date": "2026-06-26",
+      "actual_latest": "49.5",
+      "actual_latest_date": "2026-06-26",
+      "was_revised": false,
+      "data_note": null,
+      "market_reaction": {
+        "usdjpy": {
+          "ticker": "JPY=X",
+          "prev_date": "2026-07-30",
+          "prev_close": 163.3,
+          "post_date": "2026-07-31",
+          "post_close": 159.045,
+          "change_pct": -2.606
+        },
+        "sp500": {
+          "ticker": "^GSPC",
+          "prev_date": "2026-07-30",
+          "prev_close": 7437.6299,
+          "post_date": "2026-07-31",
+          "post_close": 7484.1899,
+          "change_pct": 0.626
+        },
+        "us10y": {
+          "ticker": "^TNX",
+          "prev_date": "2026-07-30",
+          "prev_close": 4.663,
+          "post_date": "2026-07-31",
+          "post_close": 4.741,
+          "change_pct": 1.673
+        }
+      },
+      "beat_forecast": false
+    },
     {
       "indicator": "boj_rate",
       "label": "日銀政策金利",
@@ -24,16 +69,24 @@
           "prev_date": "2026-07-30",
           "prev_close": 163.3,
           "post_date": "2026-07-31",
-          "post_close": 160.2,
-          "change_pct": -1.898
+          "post_close": 159.045,
+          "change_pct": -2.606
         },
-        "nikkei225": {
-          "ticker": "^N225",
+        "sp500": {
+          "ticker": "^GSPC",
           "prev_date": "2026-07-30",
-          "prev_close": 61867.4297,
+          "prev_close": 7437.6299,
           "post_date": "2026-07-31",
-          "post_close": 64362.0195,
-          "change_pct": 4.032
+          "post_close": 7484.1899,
+          "change_pct": 0.626
+        },
+        "us10y": {
+          "ticker": "^TNX",
+          "prev_date": "2026-07-30",
+          "prev_close": 4.663,
+          "post_date": "2026-07-31",
+          "post_close": 4.741,
+          "change_pct": 1.673
         }
       },
       "beat_forecast": null
@@ -310,11 +363,11 @@
       "datetime_jst": "2026-07-30T03:00:00+09:00",
       "forecast": "3.75%",
       "previous": "3.75%",
-      "actual_period": "2026-07-30",
+      "actual_period": "2026-07-31",
       "actual_first_release": "3.75%",
-      "actual_first_release_date": "2026-07-30",
+      "actual_first_release_date": "2026-07-31",
       "actual_latest": "3.75%",
-      "actual_latest_date": "2026-07-30",
+      "actual_latest_date": "2026-07-31",
       "was_revised": false,
       "data_note": null,
       "market_reaction": {
