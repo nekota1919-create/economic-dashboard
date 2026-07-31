@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T08:11:20.817752+00:00",
+  "generated_at": "2026-07-31T11:49:12.848710+00:00",
   "events": [
     {
       "indicator": "boj_rate",
@@ -24,8 +24,8 @@
           "prev_date": "2026-07-30",
           "prev_close": 163.3,
           "post_date": "2026-07-31",
-          "post_close": 160.416,
-          "change_pct": -1.766
+          "post_close": 160.2,
+          "change_pct": -1.898
         },
         "nikkei225": {
           "ticker": "^N225",
@@ -257,11 +257,11 @@
       "datetime_jst": "2026-07-30T20:00:00+09:00",
       "forecast": "3.75%",
       "previous": "3.75%",
-      "actual_period": "2026-07-28",
+      "actual_period": "2026-07-29",
       "actual_first_release": "3.73%",
-      "actual_first_release_date": "2026-07-30",
+      "actual_first_release_date": "2026-07-31",
       "actual_latest": "3.73%",
-      "actual_latest_date": "2026-07-30",
+      "actual_latest_date": "2026-07-31",
       "was_revised": false,
       "data_note": null,
       "market_reaction": {
