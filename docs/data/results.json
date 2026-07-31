@@ -1,6 +1,93 @@
 {
-  "generated_at": "2026-07-30T18:59:26.792090+00:00",
+  "generated_at": "2026-07-31T08:11:20.817752+00:00",
   "events": [
+    {
+      "indicator": "boj_rate",
+      "label": "日銀政策金利",
+      "country": "JP",
+      "ff_title": "BOJ Policy Rate",
+      "impact": "High",
+      "datetime_utc": "2026-07-31T03:11:00+00:00",
+      "datetime_jst": "2026-07-31T12:11:00+09:00",
+      "forecast": "<1.00%",
+      "previous": "<1.00%",
+      "actual_period": "2026-07-31",
+      "actual_first_release": "1.0%",
+      "actual_first_release_date": "2026-07-31",
+      "actual_latest": "1.0%",
+      "actual_latest_date": "2026-07-31",
+      "was_revised": false,
+      "data_note": null,
+      "market_reaction": {
+        "usdjpy": {
+          "ticker": "JPY=X",
+          "prev_date": "2026-07-30",
+          "prev_close": 163.3,
+          "post_date": "2026-07-31",
+          "post_close": 160.416,
+          "change_pct": -1.766
+        },
+        "nikkei225": {
+          "ticker": "^N225",
+          "prev_date": "2026-07-30",
+          "prev_close": 61867.4297,
+          "post_date": "2026-07-31",
+          "post_close": 64362.0195,
+          "change_pct": 4.032
+        }
+      },
+      "beat_forecast": null
+    },
+    {
+      "indicator": "jp_cpi",
+      "label": "日CPI(全国消費者物価指数)",
+      "country": "JP",
+      "ff_title": "Tokyo Core CPI y/y",
+      "impact": "Medium",
+      "datetime_utc": "2026-07-30T23:30:00+00:00",
+      "datetime_jst": "2026-07-31T08:30:00+09:00",
+      "forecast": "1.8%",
+      "previous": "1.6%",
+      "actual_first_release": null,
+      "actual_latest": null,
+      "was_revised": null,
+      "data_note": "e-Stat未連携のため実績値は未取得(今後対応予定)",
+      "market_reaction": {
+        "usdjpy": {
+          "ticker": "JPY=X",
+          "prev_date": "2026-07-29",
+          "prev_close": 163.864,
+          "post_date": "2026-07-30",
+          "post_close": 163.3,
+          "change_pct": -0.344
+        },
+        "nikkei225": {
+          "ticker": "^N225",
+          "prev_date": "2026-07-29",
+          "prev_close": 61434.1914,
+          "post_date": "2026-07-30",
+          "post_close": 61867.4297,
+          "change_pct": 0.705
+        },
+        "sp500": {
+          "ticker": "^GSPC",
+          "prev_date": "2026-07-29",
+          "prev_close": 7316.1499,
+          "post_date": "2026-07-30",
+          "post_close": 7437.6299,
+          "change_pct": 1.66
+        },
+        "us10y": {
+          "ticker": "^TNX",
+          "prev_date": "2026-07-29",
+          "prev_close": 4.622,
+          "post_date": "2026-07-30",
+          "post_close": 4.663,
+          "change_pct": 0.887
+        }
+      },
+      "beat_forecast": null
+    },
     {
       "indicator": "us_gdp",
       "label": "米GDP(前期比年率)",
@@ -24,24 +111,32 @@
           "prev_date": "2026-07-29",
           "prev_close": 163.864,
           "post_date": "2026-07-30",
-          "post_close": 158.934,
-          "change_pct": -3.009
+          "post_close": 163.3,
+          "change_pct": -0.344
+        },
+        "nikkei225": {
+          "ticker": "^N225",
+          "prev_date": "2026-07-29",
+          "prev_close": 61434.1914,
+          "post_date": "2026-07-30",
+          "post_close": 61867.4297,
+          "change_pct": 0.705
         },
         "sp500": {
           "ticker": "^GSPC",
           "prev_date": "2026-07-29",
           "prev_close": 7316.1499,
           "post_date": "2026-07-30",
-          "post_close": 7430.5601,
-          "change_pct": 1.564
+          "post_close": 7437.6299,
+          "change_pct": 1.66
         },
         "us10y": {
           "ticker": "^TNX",
           "prev_date": "2026-07-29",
           "prev_close": 4.622,
           "post_date": "2026-07-30",
-          "post_close": 4.667,
-          "change_pct": 0.974
+          "post_close": 4.663,
+          "change_pct": 0.887
         }
       },
       "beat_forecast": false
@@ -69,24 +164,32 @@
           "prev_date": "2026-07-29",
           "prev_close": 163.864,
           "post_date": "2026-07-30",
-          "post_close": 158.934,
-          "change_pct": -3.009
+          "post_close": 163.3,
+          "change_pct": -0.344
+        },
+        "nikkei225": {
+          "ticker": "^N225",
+          "prev_date": "2026-07-29",
+          "prev_close": 61434.1914,
+          "post_date": "2026-07-30",
+          "post_close": 61867.4297,
+          "change_pct": 0.705
         },
         "sp500": {
           "ticker": "^GSPC",
           "prev_date": "2026-07-29",
           "prev_close": 7316.1499,
           "post_date": "2026-07-30",
-          "post_close": 7430.5601,
-          "change_pct": 1.564
+          "post_close": 7437.6299,
+          "change_pct": 1.66
         },
         "us10y": {
           "ticker": "^TNX",
           "prev_date": "2026-07-29",
           "prev_close": 4.622,
           "post_date": "2026-07-30",
-          "post_close": 4.667,
-          "change_pct": 0.974
+          "post_close": 4.663,
+          "change_pct": 0.887
         }
       },
       "beat_forecast": false
@@ -114,24 +217,32 @@
           "prev_date": "2026-07-29",
           "prev_close": 163.864,
           "post_date": "2026-07-30",
-          "post_close": 158.934,
-          "change_pct": -3.009
+          "post_close": 163.3,
+          "change_pct": -0.344
+        },
+        "nikkei225": {
+          "ticker": "^N225",
+          "prev_date": "2026-07-29",
+          "prev_close": 61434.1914,
+          "post_date": "2026-07-30",
+          "post_close": 61867.4297,
+          "change_pct": 0.705
         },
         "sp500": {
           "ticker": "^GSPC",
           "prev_date": "2026-07-29",
           "prev_close": 7316.1499,
           "post_date": "2026-07-30",
-          "post_close": 7430.5601,
-          "change_pct": 1.564
+          "post_close": 7437.6299,
+          "change_pct": 1.66
         },
         "us10y": {
           "ticker": "^TNX",
           "prev_date": "2026-07-29",
           "prev_close": 4.622,
           "post_date": "2026-07-30",
-          "post_close": 4.667,
-          "change_pct": 0.974
+          "post_close": 4.663,
+          "change_pct": 0.887
         }
       },
       "beat_forecast": false
@@ -159,24 +270,32 @@
           "prev_date": "2026-07-29",
           "prev_close": 163.864,
           "post_date": "2026-07-30",
-          "post_close": 158.934,
-          "change_pct": -3.009
+          "post_close": 163.3,
+          "change_pct": -0.344
+        },
+        "nikkei225": {
+          "ticker": "^N225",
+          "prev_date": "2026-07-29",
+          "prev_close": 61434.1914,
+          "post_date": "2026-07-30",
+          "post_close": 61867.4297,
+          "change_pct": 0.705
         },
         "sp500": {
           "ticker": "^GSPC",
           "prev_date": "2026-07-29",
           "prev_close": 7316.1499,
           "post_date": "2026-07-30",
-          "post_close": 7430.5601,
-          "change_pct": 1.564
+          "post_close": 7437.6299,
+          "change_pct": 1.66
         },
         "us10y": {
           "ticker": "^TNX",
           "prev_date": "2026-07-29",
           "prev_close": 4.622,
           "post_date": "2026-07-30",
-          "post_close": 4.667,
-          "change_pct": 0.974
+          "post_close": 4.663,
+          "change_pct": 0.887
         }
       },
       "beat_forecast": false
