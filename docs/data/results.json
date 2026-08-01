@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T18:56:24.389392+00:00",
+  "generated_at": "2026-08-01T00:15:12.311923+00:00",
   "events": [
     {
       "indicator": "us_michigan_sentiment",
@@ -24,24 +24,24 @@
           "prev_date": "2026-07-30",
           "prev_close": 163.3,
           "post_date": "2026-07-31",
-          "post_close": 159.045,
-          "change_pct": -2.606
+          "post_close": 160.183,
+          "change_pct": -1.909
         },
         "sp500": {
           "ticker": "^GSPC",
           "prev_date": "2026-07-30",
           "prev_close": 7437.6299,
           "post_date": "2026-07-31",
-          "post_close": 7484.1899,
-          "change_pct": 0.626
+          "post_close": 7489.7202,
+          "change_pct": 0.7
         },
         "us10y": {
           "ticker": "^TNX",
           "prev_date": "2026-07-30",
           "prev_close": 4.663,
           "post_date": "2026-07-31",
-          "post_close": 4.741,
-          "change_pct": 1.673
+          "post_close": 4.745,
+          "change_pct": 1.759
         }
       },
       "beat_forecast": false
@@ -69,24 +69,24 @@
           "prev_date": "2026-07-30",
           "prev_close": 163.3,
           "post_date": "2026-07-31",
-          "post_close": 159.045,
-          "change_pct": -2.606
+          "post_close": 160.183,
+          "change_pct": -1.909
         },
         "sp500": {
           "ticker": "^GSPC",
           "prev_date": "2026-07-30",
           "prev_close": 7437.6299,
           "post_date": "2026-07-31",
-          "post_close": 7484.1899,
-          "change_pct": 0.626
+          "post_close": 7489.7202,
+          "change_pct": 0.7
         },
         "us10y": {
           "ticker": "^TNX",
           "prev_date": "2026-07-30",
           "prev_close": 4.663,
           "post_date": "2026-07-31",
-          "post_close": 4.741,
-          "change_pct": 1.673
+          "post_close": 4.745,
+          "change_pct": 1.759
         }
       },
       "beat_forecast": null
