@@ -1,6 +1,59 @@
 {
-  "generated_at": "2026-08-06T11:52:12.107112+00:00",
+  "generated_at": "2026-08-07T04:37:34.653448+00:00",
   "events": [
+    {
+      "indicator": "us_jobless_claims",
+      "label": "米新規失業保険申請件数",
+      "country": "US",
+      "ff_title": "Unemployment Claims",
+      "impact": "Medium",
+      "datetime_utc": "2026-08-06T12:30:00+00:00",
+      "datetime_jst": "2026-08-06T21:30:00+09:00",
+      "forecast": "203K",
+      "previous": "197K",
+      "actual_period": "2026-08-01",
+      "actual_first_release": "199K",
+      "actual_first_release_date": "2026-08-06",
+      "actual_latest": "199K",
+      "actual_latest_date": "2026-08-06",
+      "was_revised": false,
+      "data_note": null,
+      "market_reaction": {
+        "usdjpy": {
+          "ticker": "JPY=X",
+          "prev_date": "2026-08-05",
+          "prev_close": 157.692,
+          "post_date": "2026-08-06",
+          "post_close": 157.6,
+          "change_pct": -0.058
+        },
+        "nikkei225": {
+          "ticker": "^N225",
+          "prev_date": "2026-08-05",
+          "prev_close": 66300.4375,
+          "post_date": "2026-08-06",
+          "post_close": 65683.2578,
+          "change_pct": -0.931
+        },
+        "sp500": {
+          "ticker": "^GSPC",
+          "prev_date": "2026-08-05",
+          "prev_close": 7723.5498,
+          "post_date": "2026-08-06",
+          "post_close": 7709.96,
+          "change_pct": -0.176
+        },
+        "us10y": {
+          "ticker": "^TNX",
+          "prev_date": "2026-08-05",
+          "prev_close": 4.617,
+          "post_date": "2026-08-06",
+          "post_close": 4.67,
+          "change_pct": 1.148
+        }
+      },
+      "beat_forecast": false
+    },
     {
       "indicator": "us_michigan_sentiment",
       "label": "米ミシガン大学消費者信頼感指数",
