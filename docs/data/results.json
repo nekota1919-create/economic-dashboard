@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T23:07:26.981226+00:00",
+  "generated_at": "2026-08-08T06:03:43.290230+00:00",
   "events": [
     {
       "indicator": "us_nfp",
@@ -26,6 +26,14 @@
           "post_date": "2026-08-07",
           "post_close": 157.745,
           "change_pct": 0.092
+        },
+        "nikkei225": {
+          "ticker": "^N225",
+          "prev_date": "2026-08-06",
+          "prev_close": 65683.2578,
+          "post_date": "2026-08-07",
+          "post_close": 65606.7109,
+          "change_pct": -0.117
         },
         "sp500": {
           "ticker": "^GSPC",
@@ -71,6 +79,14 @@
           "post_date": "2026-08-07",
           "post_close": 157.745,
           "change_pct": 0.092
+        },
+        "nikkei225": {
+          "ticker": "^N225",
+          "prev_date": "2026-08-06",
+          "prev_close": 65683.2578,
+          "post_date": "2026-08-07",
+          "post_close": 65606.7109,
+          "change_pct": -0.117
         },
         "sp500": {
           "ticker": "^GSPC",
