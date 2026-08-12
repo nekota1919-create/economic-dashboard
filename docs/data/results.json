@@ -1,6 +1,51 @@
 {
-  "generated_at": "2026-08-12T08:47:11.795795+00:00",
+  "generated_at": "2026-08-12T17:33:07.585070+00:00",
   "events": [
+    {
+      "indicator": "us_cpi",
+      "label": "米CPI(消費者物価指数・前年比)",
+      "country": "US",
+      "ff_title": "CPI y/y",
+      "impact": "High",
+      "datetime_utc": "2026-08-12T12:30:00+00:00",
+      "datetime_jst": "2026-08-12T21:30:00+09:00",
+      "forecast": "3.4%",
+      "previous": "3.5%",
+      "actual_period": "2026-07-01",
+      "actual_first_release": "3.3%",
+      "actual_first_release_date": "2026-08-12",
+      "actual_latest": "3.3%",
+      "actual_latest_date": "2026-08-12",
+      "was_revised": false,
+      "data_note": null,
+      "market_reaction": {
+        "usdjpy": {
+          "ticker": "JPY=X",
+          "prev_date": "2026-08-11",
+          "prev_close": 159.156,
+          "post_date": "2026-08-12",
+          "post_close": 159.449,
+          "change_pct": 0.184
+        },
+        "sp500": {
+          "ticker": "^GSPC",
+          "prev_date": "2026-08-11",
+          "prev_close": 7728.2002,
+          "post_date": "2026-08-12",
+          "post_close": 7752.0601,
+          "change_pct": 0.309
+        },
+        "us10y": {
+          "ticker": "^TNX",
+          "prev_date": "2026-08-11",
+          "prev_close": 4.684,
+          "post_date": "2026-08-12",
+          "post_close": 4.668,
+          "change_pct": -0.342
+        }
+      },
+      "beat_forecast": false
+    },
     {
       "indicator": "us_nfp",
       "label": "米雇用統計(非農業部門雇用者数・前月差)",
