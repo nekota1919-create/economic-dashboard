@@ -1,6 +1,96 @@
 {
-  "generated_at": "2026-08-13T08:52:18.390121+00:00",
+  "generated_at": "2026-08-13T17:32:58.705868+00:00",
   "events": [
+    {
+      "indicator": "us_ppi",
+      "label": "米PPI(生産者物価指数・前月比)",
+      "country": "US",
+      "ff_title": "PPI m/m",
+      "impact": "High",
+      "datetime_utc": "2026-08-13T12:30:00+00:00",
+      "datetime_jst": "2026-08-13T21:30:00+09:00",
+      "forecast": "0.2%",
+      "previous": "-0.3%",
+      "actual_period": "2026-07-01",
+      "actual_first_release": "-0.03%",
+      "actual_first_release_date": "2026-08-13",
+      "actual_latest": "-0.03%",
+      "actual_latest_date": "2026-08-13",
+      "was_revised": false,
+      "data_note": null,
+      "market_reaction": {
+        "usdjpy": {
+          "ticker": "JPY=X",
+          "prev_date": "2026-08-12",
+          "prev_close": 159.265,
+          "post_date": "2026-08-13",
+          "post_close": 159.538,
+          "change_pct": 0.171
+        },
+        "sp500": {
+          "ticker": "^GSPC",
+          "prev_date": "2026-08-12",
+          "prev_close": 7748.5,
+          "post_date": "2026-08-13",
+          "post_close": 7793.9102,
+          "change_pct": 0.586
+        },
+        "us10y": {
+          "ticker": "^TNX",
+          "prev_date": "2026-08-12",
+          "prev_close": 4.682,
+          "post_date": "2026-08-13",
+          "post_close": 4.645,
+          "change_pct": -0.79
+        }
+      },
+      "beat_forecast": false
+    },
+    {
+      "indicator": "us_jobless_claims",
+      "label": "米新規失業保険申請件数",
+      "country": "US",
+      "ff_title": "Unemployment Claims",
+      "impact": "Medium",
+      "datetime_utc": "2026-08-13T12:30:00+00:00",
+      "datetime_jst": "2026-08-13T21:30:00+09:00",
+      "forecast": "202K",
+      "previous": "199K",
+      "actual_period": "2026-08-08",
+      "actual_first_release": "209K",
+      "actual_first_release_date": "2026-08-13",
+      "actual_latest": "209K",
+      "actual_latest_date": "2026-08-13",
+      "was_revised": false,
+      "data_note": null,
+      "market_reaction": {
+        "usdjpy": {
+          "ticker": "JPY=X",
+          "prev_date": "2026-08-12",
+          "prev_close": 159.265,
+          "post_date": "2026-08-13",
+          "post_close": 159.538,
+          "change_pct": 0.171
+        },
+        "sp500": {
+          "ticker": "^GSPC",
+          "prev_date": "2026-08-12",
+          "prev_close": 7748.5,
+          "post_date": "2026-08-13",
+          "post_close": 7793.9102,
+          "change_pct": 0.586
+        },
+        "us10y": {
+          "ticker": "^TNX",
+          "prev_date": "2026-08-12",
+          "prev_close": 4.682,
+          "post_date": "2026-08-13",
+          "post_close": 4.645,
+          "change_pct": -0.79
+        }
+      },
+      "beat_forecast": true
+    },
     {
       "indicator": "us_cpi",
       "label": "米CPI(消費者物価指数・前年比)",
