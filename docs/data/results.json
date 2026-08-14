@@ -1,6 +1,96 @@
 {
-  "generated_at": "2026-08-14T08:41:41.717031+00:00",
+  "generated_at": "2026-08-14T16:36:18.876725+00:00",
   "events": [
+    {
+      "indicator": "us_michigan_sentiment",
+      "label": "米ミシガン大学消費者信頼感指数",
+      "country": "US",
+      "ff_title": "Prelim UoM Consumer Sentiment",
+      "impact": "Medium",
+      "datetime_utc": "2026-08-14T14:00:00+00:00",
+      "datetime_jst": "2026-08-14T23:00:00+09:00",
+      "forecast": "54.7",
+      "previous": "54.4",
+      "actual_period": "2026-06-01",
+      "actual_first_release": "49.5",
+      "actual_first_release_date": "2026-06-26",
+      "actual_latest": "49.5",
+      "actual_latest_date": "2026-06-26",
+      "was_revised": false,
+      "data_note": null,
+      "market_reaction": {
+        "usdjpy": {
+          "ticker": "JPY=X",
+          "prev_date": "2026-08-13",
+          "prev_close": 159.328,
+          "post_date": "2026-08-14",
+          "post_close": 159.278,
+          "change_pct": -0.031
+        },
+        "sp500": {
+          "ticker": "^GSPC",
+          "prev_date": "2026-08-13",
+          "prev_close": 7798.9902,
+          "post_date": "2026-08-14",
+          "post_close": 7785.8799,
+          "change_pct": -0.168
+        },
+        "us10y": {
+          "ticker": "^TNX",
+          "prev_date": "2026-08-13",
+          "prev_close": 4.641,
+          "post_date": "2026-08-14",
+          "post_close": 4.686,
+          "change_pct": 0.97
+        }
+      },
+      "beat_forecast": false
+    },
+    {
+      "indicator": "us_retail_sales",
+      "label": "米小売売上高(前月比)",
+      "country": "US",
+      "ff_title": "Retail Sales m/m",
+      "impact": "Medium",
+      "datetime_utc": "2026-08-14T12:30:00+00:00",
+      "datetime_jst": "2026-08-14T21:30:00+09:00",
+      "forecast": "0.1%",
+      "previous": "0.2%",
+      "actual_period": "2026-07-01",
+      "actual_first_release": "-0.58%",
+      "actual_first_release_date": "2026-08-14",
+      "actual_latest": "-0.58%",
+      "actual_latest_date": "2026-08-14",
+      "was_revised": false,
+      "data_note": null,
+      "market_reaction": {
+        "usdjpy": {
+          "ticker": "JPY=X",
+          "prev_date": "2026-08-13",
+          "prev_close": 159.328,
+          "post_date": "2026-08-14",
+          "post_close": 159.278,
+          "change_pct": -0.031
+        },
+        "sp500": {
+          "ticker": "^GSPC",
+          "prev_date": "2026-08-13",
+          "prev_close": 7798.9902,
+          "post_date": "2026-08-14",
+          "post_close": 7785.8799,
+          "change_pct": -0.168
+        },
+        "us10y": {
+          "ticker": "^TNX",
+          "prev_date": "2026-08-13",
+          "prev_close": 4.641,
+          "post_date": "2026-08-14",
+          "post_close": 4.686,
+          "change_pct": 0.97
+        }
+      },
+      "beat_forecast": false
+    },
     {
       "indicator": "us_ppi",
       "label": "米PPI(生産者物価指数・前月比)",
