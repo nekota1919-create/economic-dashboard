@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T15:50:12.179943+00:00",
+  "generated_at": "2026-08-20T21:58:26.297562+00:00",
   "events": [
     {
       "indicator": "us_jobless_claims",
@@ -24,24 +24,24 @@
           "prev_date": "2026-08-19",
           "prev_close": 159.55,
           "post_date": "2026-08-20",
-          "post_close": 158.921,
-          "change_pct": -0.394
+          "post_close": 159.044,
+          "change_pct": -0.317
         },
         "sp500": {
           "ticker": "^GSPC",
           "prev_date": "2026-08-19",
           "prev_close": 7707.98,
           "post_date": "2026-08-20",
-          "post_close": 7673.6001,
-          "change_pct": -0.446
+          "post_close": 7641.1602,
+          "change_pct": -0.867
         },
         "us10y": {
           "ticker": "^TNX",
           "prev_date": "2026-08-19",
           "prev_close": 4.653,
           "post_date": "2026-08-20",
-          "post_close": 4.708,
-          "change_pct": 1.182
+          "post_close": 4.696,
+          "change_pct": 0.924
         }
       },
       "beat_forecast": false
