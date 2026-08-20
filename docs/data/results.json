@@ -1,6 +1,51 @@
 {
-  "generated_at": "2026-08-20T05:17:58.590162+00:00",
+  "generated_at": "2026-08-20T15:50:12.179943+00:00",
   "events": [
+    {
+      "indicator": "us_jobless_claims",
+      "label": "米新規失業保険申請件数",
+      "country": "US",
+      "ff_title": "Unemployment Claims",
+      "impact": "Medium",
+      "datetime_utc": "2026-08-20T12:30:00+00:00",
+      "datetime_jst": "2026-08-20T21:30:00+09:00",
+      "forecast": "210K",
+      "previous": "209K",
+      "actual_period": "2026-08-15",
+      "actual_first_release": "206K",
+      "actual_first_release_date": "2026-08-20",
+      "actual_latest": "206K",
+      "actual_latest_date": "2026-08-20",
+      "was_revised": false,
+      "data_note": null,
+      "market_reaction": {
+        "usdjpy": {
+          "ticker": "JPY=X",
+          "prev_date": "2026-08-19",
+          "prev_close": 159.55,
+          "post_date": "2026-08-20",
+          "post_close": 158.921,
+          "change_pct": -0.394
+        },
+        "sp500": {
+          "ticker": "^GSPC",
+          "prev_date": "2026-08-19",
+          "prev_close": 7707.98,
+          "post_date": "2026-08-20",
+          "post_close": 7673.6001,
+          "change_pct": -0.446
+        },
+        "us10y": {
+          "ticker": "^TNX",
+          "prev_date": "2026-08-19",
+          "prev_close": 4.653,
+          "post_date": "2026-08-20",
+          "post_close": 4.708,
+          "change_pct": 1.182
+        }
+      },
+      "beat_forecast": false
+    },
     {
       "indicator": "us_michigan_sentiment",
       "label": "米ミシガン大学消費者信頼感指数",
