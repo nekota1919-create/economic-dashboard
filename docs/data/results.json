@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T21:58:26.297562+00:00",
+  "generated_at": "2026-08-21T05:20:06.118053+00:00",
   "events": [
     {
       "indicator": "us_jobless_claims",
@@ -24,8 +24,16 @@
           "prev_date": "2026-08-19",
           "prev_close": 159.55,
           "post_date": "2026-08-20",
-          "post_close": 159.044,
-          "change_pct": -0.317
+          "post_close": 158.276,
+          "change_pct": -0.798
+        },
+        "nikkei225": {
+          "ticker": "^N225",
+          "prev_date": "2026-08-19",
+          "prev_close": 65326.4219,
+          "post_date": "2026-08-20",
+          "post_close": 66216.7891,
+          "change_pct": 1.363
         },
         "sp500": {
           "ticker": "^GSPC",
