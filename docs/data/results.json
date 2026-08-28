@@ -1,6 +1,109 @@
 {
-  "generated_at": "2026-08-26T16:39:10.916288+00:00",
+  "generated_at": "2026-08-28T04:25:21.449134+00:00",
   "events": [
+    {
+      "indicator": "jp_cpi",
+      "label": "日CPI(全国消費者物価指数)",
+      "country": "JP",
+      "ff_title": "Tokyo Core CPI y/y",
+      "impact": "Medium",
+      "datetime_utc": "2026-08-27T23:30:00+00:00",
+      "datetime_jst": "2026-08-28T08:30:00+09:00",
+      "forecast": "1.8%",
+      "previous": "1.9%",
+      "actual_first_release": null,
+      "actual_latest": null,
+      "was_revised": null,
+      "data_note": "e-Stat未連携のため実績値は未取得(今後対応予定)",
+      "market_reaction": {
+        "usdjpy": {
+          "ticker": "JPY=X",
+          "prev_date": "2026-08-26",
+          "prev_close": 159.223,
+          "post_date": "2026-08-27",
+          "post_close": 159.255,
+          "change_pct": 0.02
+        },
+        "nikkei225": {
+          "ticker": "^N225",
+          "prev_date": "2026-08-26",
+          "prev_close": 66262.1562,
+          "post_date": "2026-08-27",
+          "post_close": 66131.9766,
+          "change_pct": -0.196
+        },
+        "sp500": {
+          "ticker": "^GSPC",
+          "prev_date": "2026-08-26",
+          "prev_close": 7675.7002,
+          "post_date": "2026-08-27",
+          "post_close": 7730.9902,
+          "change_pct": 0.72
+        },
+        "us10y": {
+          "ticker": "^TNX",
+          "prev_date": "2026-08-26",
+          "prev_close": 4.664,
+          "post_date": "2026-08-27",
+          "post_close": 4.672,
+          "change_pct": 0.172
+        }
+      },
+      "beat_forecast": null
+    },
+    {
+      "indicator": "us_jobless_claims",
+      "label": "米新規失業保険申請件数",
+      "country": "US",
+      "ff_title": "Unemployment Claims",
+      "impact": "Medium",
+      "datetime_utc": "2026-08-27T12:30:00+00:00",
+      "datetime_jst": "2026-08-27T21:30:00+09:00",
+      "forecast": "208K",
+      "previous": "206K",
+      "actual_period": "2026-08-22",
+      "actual_first_release": "203K",
+      "actual_first_release_date": "2026-08-27",
+      "actual_latest": "203K",
+      "actual_latest_date": "2026-08-27",
+      "was_revised": false,
+      "data_note": null,
+      "market_reaction": {
+        "usdjpy": {
+          "ticker": "JPY=X",
+          "prev_date": "2026-08-26",
+          "prev_close": 159.223,
+          "post_date": "2026-08-27",
+          "post_close": 159.255,
+          "change_pct": 0.02
+        },
+        "nikkei225": {
+          "ticker": "^N225",
+          "prev_date": "2026-08-26",
+          "prev_close": 66262.1562,
+          "post_date": "2026-08-27",
+          "post_close": 66131.9766,
+          "change_pct": -0.196
+        },
+        "sp500": {
+          "ticker": "^GSPC",
+          "prev_date": "2026-08-26",
+          "prev_close": 7675.7002,
+          "post_date": "2026-08-27",
+          "post_close": 7730.9902,
+          "change_pct": 0.72
+        },
+        "us10y": {
+          "ticker": "^TNX",
+          "prev_date": "2026-08-26",
+          "prev_close": 4.664,
+          "post_date": "2026-08-27",
+          "post_close": 4.672,
+          "change_pct": 0.172
+        }
+      },
+      "beat_forecast": false
+    },
     {
       "indicator": "us_pce",
       "label": "米PCEコア物価指数(前月比)",
@@ -24,24 +127,32 @@
           "prev_date": "2026-08-25",
           "prev_close": 159.139,
           "post_date": "2026-08-26",
-          "post_close": 159.372,
-          "change_pct": 0.146
+          "post_close": 159.223,
+          "change_pct": 0.053
+        },
+        "nikkei225": {
+          "ticker": "^N225",
+          "prev_date": "2026-08-25",
+          "prev_close": 65856.4297,
+          "post_date": "2026-08-26",
+          "post_close": 66262.1562,
+          "change_pct": 0.616
         },
         "sp500": {
           "ticker": "^GSPC",
           "prev_date": "2026-08-25",
           "prev_close": 7677.2798,
           "post_date": "2026-08-26",
-          "post_close": 7662.6899,
-          "change_pct": -0.19
+          "post_close": 7675.7002,
+          "change_pct": -0.021
         },
         "us10y": {
           "ticker": "^TNX",
           "prev_date": "2026-08-25",
           "prev_close": 4.639,
           "post_date": "2026-08-26",
-          "post_close": 4.668,
-          "change_pct": 0.625
+          "post_close": 4.664,
+          "change_pct": 0.539
         }
       },
       "beat_forecast": true
@@ -69,24 +180,32 @@
           "prev_date": "2026-08-25",
           "prev_close": 159.139,
           "post_date": "2026-08-26",
-          "post_close": 159.372,
-          "change_pct": 0.146
+          "post_close": 159.223,
+          "change_pct": 0.053
+        },
+        "nikkei225": {
+          "ticker": "^N225",
+          "prev_date": "2026-08-25",
+          "prev_close": 65856.4297,
+          "post_date": "2026-08-26",
+          "post_close": 66262.1562,
+          "change_pct": 0.616
         },
         "sp500": {
           "ticker": "^GSPC",
           "prev_date": "2026-08-25",
           "prev_close": 7677.2798,
           "post_date": "2026-08-26",
-          "post_close": 7662.6899,
-          "change_pct": -0.19
+          "post_close": 7675.7002,
+          "change_pct": -0.021
         },
         "us10y": {
           "ticker": "^TNX",
           "prev_date": "2026-08-25",
           "prev_close": 4.639,
           "post_date": "2026-08-26",
-          "post_close": 4.668,
-          "change_pct": 0.625
+          "post_close": 4.664,
+          "change_pct": 0.539
         }
       },
       "beat_forecast": null
