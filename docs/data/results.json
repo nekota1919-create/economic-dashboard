@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T22:00:39.809277+00:00",
+  "generated_at": "2026-08-29T10:30:27.199588+00:00",
   "events": [
     {
       "indicator": "us_michigan_sentiment",
@@ -32,16 +32,8 @@
           "prev_date": "2026-08-27",
           "prev_close": 7730.9902,
           "post_date": "2026-08-28",
-          "post_close": 7711.7598,
-          "change_pct": -0.249
-        },
-        "us10y": {
-          "ticker": "^TNX",
-          "prev_date": "2026-08-27",
-          "prev_close": 4.672,
-          "post_date": "2026-08-28",
-          "post_close": 4.72,
-          "change_pct": 1.027
+          "post_close": NaN,
+          "change_pct": NaN
         }
       },
       "beat_forecast": true
