@@ -1,6 +1,141 @@
 {
-  "generated_at": "2026-09-10T08:27:07.528391+00:00",
+  "generated_at": "2026-09-10T17:25:32.011178+00:00",
   "events": [
+    {
+      "indicator": "us_ppi",
+      "label": "米PPI(生産者物価指数・前月比)",
+      "country": "US",
+      "ff_title": "PPI m/m",
+      "impact": "High",
+      "datetime_utc": "2026-09-10T12:30:00+00:00",
+      "datetime_jst": "2026-09-10T21:30:00+09:00",
+      "forecast": "0.4%",
+      "previous": "0.0%",
+      "actual_period": "2026-08-01",
+      "actual_first_release": "0.4%",
+      "actual_first_release_date": "2026-09-10",
+      "actual_latest": "0.4%",
+      "actual_latest_date": "2026-09-10",
+      "was_revised": false,
+      "data_note": null,
+      "market_reaction": {
+        "usdjpy": {
+          "ticker": "JPY=X",
+          "prev_date": "2026-09-09",
+          "prev_close": 153.478,
+          "post_date": "2026-09-10",
+          "post_close": 154.247,
+          "change_pct": 0.501
+        },
+        "sp500": {
+          "ticker": "^GSPC",
+          "prev_date": "2026-09-09",
+          "prev_close": 7636.3599,
+          "post_date": "2026-09-10",
+          "post_close": 7599.0801,
+          "change_pct": -0.488
+        },
+        "us10y": {
+          "ticker": "^TNX",
+          "prev_date": "2026-09-09",
+          "prev_close": 4.837,
+          "post_date": "2026-09-10",
+          "post_close": 4.92,
+          "change_pct": 1.716
+        }
+      },
+      "beat_forecast": null
+    },
+    {
+      "indicator": "us_jobless_claims",
+      "label": "米新規失業保険申請件数",
+      "country": "US",
+      "ff_title": "Unemployment Claims",
+      "impact": "Medium",
+      "datetime_utc": "2026-09-10T12:30:00+00:00",
+      "datetime_jst": "2026-09-10T21:30:00+09:00",
+      "forecast": "205K",
+      "previous": "206K",
+      "actual_period": "2026-09-05",
+      "actual_first_release": "206K",
+      "actual_first_release_date": "2026-09-10",
+      "actual_latest": "206K",
+      "actual_latest_date": "2026-09-10",
+      "was_revised": false,
+      "data_note": null,
+      "market_reaction": {
+        "usdjpy": {
+          "ticker": "JPY=X",
+          "prev_date": "2026-09-09",
+          "prev_close": 153.478,
+          "post_date": "2026-09-10",
+          "post_close": 154.247,
+          "change_pct": 0.501
+        },
+        "sp500": {
+          "ticker": "^GSPC",
+          "prev_date": "2026-09-09",
+          "prev_close": 7636.3599,
+          "post_date": "2026-09-10",
+          "post_close": 7599.0801,
+          "change_pct": -0.488
+        },
+        "us10y": {
+          "ticker": "^TNX",
+          "prev_date": "2026-09-09",
+          "prev_close": 4.837,
+          "post_date": "2026-09-10",
+          "post_close": 4.92,
+          "change_pct": 1.716
+        }
+      },
+      "beat_forecast": true
+    },
+    {
+      "indicator": "ecb_rate",
+      "label": "ECB政策金利(中銀預金金利)",
+      "country": "EU",
+      "ff_title": "Main Refinancing Rate",
+      "impact": "High",
+      "datetime_utc": "2026-09-10T12:15:00+00:00",
+      "datetime_jst": "2026-09-10T21:15:00+09:00",
+      "forecast": "2.65%",
+      "previous": "2.40%",
+      "actual_period": "2026-09-10",
+      "actual_first_release": "2.25%",
+      "actual_first_release_date": "2026-09-10",
+      "actual_latest": "2.25%",
+      "actual_latest_date": "2026-09-10",
+      "was_revised": false,
+      "data_note": null,
+      "market_reaction": {
+        "usdjpy": {
+          "ticker": "JPY=X",
+          "prev_date": "2026-09-09",
+          "prev_close": 153.478,
+          "post_date": "2026-09-10",
+          "post_close": 154.247,
+          "change_pct": 0.501
+        },
+        "sp500": {
+          "ticker": "^GSPC",
+          "prev_date": "2026-09-09",
+          "prev_close": 7636.3599,
+          "post_date": "2026-09-10",
+          "post_close": 7599.0801,
+          "change_pct": -0.488
+        },
+        "us10y": {
+          "ticker": "^TNX",
+          "prev_date": "2026-09-09",
+          "prev_close": 4.837,
+          "post_date": "2026-09-10",
+          "post_close": 4.92,
+          "change_pct": 1.716
+        }
+      },
+      "beat_forecast": false
+    },
     {
       "indicator": "us_nfp",
       "label": "米雇用統計(非農業部門雇用者数・前月差)",
