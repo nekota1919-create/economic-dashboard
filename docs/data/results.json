@@ -1,6 +1,51 @@
 {
-  "generated_at": "2026-09-16T17:53:21.169166+00:00",
+  "generated_at": "2026-09-16T23:35:52.332322+00:00",
   "events": [
+    {
+      "indicator": "us_fomc",
+      "label": "FOMC政策金利(誘導目標レンジ上限)",
+      "country": "US",
+      "ff_title": "Federal Funds Rate",
+      "impact": "High",
+      "datetime_utc": "2026-09-16T18:00:00+00:00",
+      "datetime_jst": "2026-09-17T03:00:00+09:00",
+      "forecast": "4.00%",
+      "previous": "3.75%",
+      "actual_period": "2026-09-16",
+      "actual_first_release": "3.75%",
+      "actual_first_release_date": "2026-09-16",
+      "actual_latest": "3.75%",
+      "actual_latest_date": "2026-09-16",
+      "was_revised": false,
+      "data_note": null,
+      "market_reaction": {
+        "usdjpy": {
+          "ticker": "JPY=X",
+          "prev_date": "2026-09-15",
+          "prev_close": 154.385,
+          "post_date": "2026-09-16",
+          "post_close": 155.266,
+          "change_pct": 0.571
+        },
+        "sp500": {
+          "ticker": "^GSPC",
+          "prev_date": "2026-09-15",
+          "prev_close": 7585.73,
+          "post_date": "2026-09-16",
+          "post_close": 7551.8101,
+          "change_pct": -0.447
+        },
+        "us10y": {
+          "ticker": "^TNX",
+          "prev_date": "2026-09-15",
+          "prev_close": 4.996,
+          "post_date": "2026-09-16",
+          "post_close": 5.006,
+          "change_pct": 0.2
+        }
+      },
+      "beat_forecast": false
+    },
     {
       "indicator": "us_retail_sales",
       "label": "米小売売上高(前月比)",
@@ -24,24 +69,24 @@
           "prev_date": "2026-09-15",
           "prev_close": 154.385,
           "post_date": "2026-09-16",
-          "post_close": 155.113,
-          "change_pct": 0.472
+          "post_close": 155.266,
+          "change_pct": 0.571
         },
         "sp500": {
           "ticker": "^GSPC",
           "prev_date": "2026-09-15",
           "prev_close": 7585.73,
           "post_date": "2026-09-16",
-          "post_close": 7608.02,
-          "change_pct": 0.294
+          "post_close": 7551.8101,
+          "change_pct": -0.447
         },
         "us10y": {
           "ticker": "^TNX",
           "prev_date": "2026-09-15",
           "prev_close": 4.996,
           "post_date": "2026-09-16",
-          "post_close": 4.951,
-          "change_pct": -0.901
+          "post_close": 5.006,
+          "change_pct": 0.2
         }
       },
       "beat_forecast": true
