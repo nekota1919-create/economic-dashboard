@@ -1,6 +1,51 @@
 {
-  "generated_at": "2026-09-16T08:52:49.133266+00:00",
+  "generated_at": "2026-09-16T17:53:21.169166+00:00",
   "events": [
+    {
+      "indicator": "us_retail_sales",
+      "label": "米小売売上高(前月比)",
+      "country": "US",
+      "ff_title": "Retail Sales m/m",
+      "impact": "Medium",
+      "datetime_utc": "2026-09-16T12:30:00+00:00",
+      "datetime_jst": "2026-09-16T21:30:00+09:00",
+      "forecast": "0.8%",
+      "previous": "-0.6%",
+      "actual_period": "2026-08-01",
+      "actual_first_release": "1.24%",
+      "actual_first_release_date": "2026-09-16",
+      "actual_latest": "1.24%",
+      "actual_latest_date": "2026-09-16",
+      "was_revised": false,
+      "data_note": null,
+      "market_reaction": {
+        "usdjpy": {
+          "ticker": "JPY=X",
+          "prev_date": "2026-09-15",
+          "prev_close": 154.385,
+          "post_date": "2026-09-16",
+          "post_close": 155.113,
+          "change_pct": 0.472
+        },
+        "sp500": {
+          "ticker": "^GSPC",
+          "prev_date": "2026-09-15",
+          "prev_close": 7585.73,
+          "post_date": "2026-09-16",
+          "post_close": 7608.02,
+          "change_pct": 0.294
+        },
+        "us10y": {
+          "ticker": "^TNX",
+          "prev_date": "2026-09-15",
+          "prev_close": 4.996,
+          "post_date": "2026-09-16",
+          "post_close": 4.951,
+          "change_pct": -0.901
+        }
+      },
+      "beat_forecast": true
+    },
     {
       "indicator": "us_michigan_sentiment",
       "label": "米ミシガン大学消費者信頼感指数",
