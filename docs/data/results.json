@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T08:32:21.676826+00:00",
+  "generated_at": "2026-09-18T17:24:00.579562+00:00",
   "events": [
     {
       "indicator": "boj_rate",
@@ -24,16 +24,24 @@
           "prev_date": "2026-09-17",
           "prev_close": 156.014,
           "post_date": "2026-09-18",
-          "post_close": 157.758,
-          "change_pct": 1.118
+          "post_close": 156.659,
+          "change_pct": 0.413
         },
-        "nikkei225": {
-          "ticker": "^N225",
+        "sp500": {
+          "ticker": "^GSPC",
           "prev_date": "2026-09-17",
-          "prev_close": 64136.25,
+          "prev_close": 7637.7598,
           "post_date": "2026-09-18",
-          "post_close": 65018.9492,
-          "change_pct": 1.376
+          "post_close": 7624.8301,
+          "change_pct": -0.169
+        },
+        "us10y": {
+          "ticker": "^TNX",
+          "prev_date": "2026-09-17",
+          "prev_close": 4.947,
+          "post_date": "2026-09-18",
+          "post_close": 4.998,
+          "change_pct": 1.031
         }
       },
       "beat_forecast": null
@@ -101,11 +109,11 @@
       "datetime_jst": "2026-09-17T20:00:00+09:00",
       "forecast": "3.75%",
       "previous": "3.75%",
-      "actual_period": "2026-09-15",
+      "actual_period": "2026-09-16",
       "actual_first_release": "3.73%",
-      "actual_first_release_date": "2026-09-17",
+      "actual_first_release_date": "2026-09-18",
       "actual_latest": "3.73%",
-      "actual_latest_date": "2026-09-17",
+      "actual_latest_date": "2026-09-18",
       "was_revised": false,
       "data_note": null,
       "market_reaction": {
@@ -154,11 +162,11 @@
       "datetime_jst": "2026-09-17T03:00:00+09:00",
       "forecast": "4.00%",
       "previous": "3.75%",
-      "actual_period": "2026-09-17",
+      "actual_period": "2026-09-18",
       "actual_first_release": "4%",
-      "actual_first_release_date": "2026-09-17",
+      "actual_first_release_date": "2026-09-18",
       "actual_latest": "4%",
-      "actual_latest_date": "2026-09-17",
+      "actual_latest_date": "2026-09-18",
       "was_revised": false,
       "data_note": null,
       "market_reaction": {
