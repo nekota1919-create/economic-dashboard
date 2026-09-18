@@ -1,6 +1,43 @@
 {
-  "generated_at": "2026-09-17T23:28:33.848803+00:00",
+  "generated_at": "2026-09-18T08:32:21.676826+00:00",
   "events": [
+    {
+      "indicator": "boj_rate",
+      "label": "日銀政策金利",
+      "country": "JP",
+      "ff_title": "BOJ Policy Rate",
+      "impact": "High",
+      "datetime_utc": "2026-09-18T02:54:00+00:00",
+      "datetime_jst": "2026-09-18T11:54:00+09:00",
+      "forecast": "<1.25%",
+      "previous": "<1.00%",
+      "actual_period": "2026-09-18",
+      "actual_first_release": "1.25%",
+      "actual_first_release_date": "2026-09-18",
+      "actual_latest": "1.25%",
+      "actual_latest_date": "2026-09-18",
+      "was_revised": false,
+      "data_note": null,
+      "market_reaction": {
+        "usdjpy": {
+          "ticker": "JPY=X",
+          "prev_date": "2026-09-17",
+          "prev_close": 156.014,
+          "post_date": "2026-09-18",
+          "post_close": 157.758,
+          "change_pct": 1.118
+        },
+        "nikkei225": {
+          "ticker": "^N225",
+          "prev_date": "2026-09-17",
+          "prev_close": 64136.25,
+          "post_date": "2026-09-18",
+          "post_close": 65018.9492,
+          "change_pct": 1.376
+        }
+      },
+      "beat_forecast": null
+    },
     {
       "indicator": "us_jobless_claims",
       "label": "米新規失業保険申請件数",
@@ -26,6 +63,14 @@
           "post_date": "2026-09-17",
           "post_close": 156.014,
           "change_pct": 0.482
+        },
+        "nikkei225": {
+          "ticker": "^N225",
+          "prev_date": "2026-09-16",
+          "prev_close": 63923.0,
+          "post_date": "2026-09-17",
+          "post_close": 64136.25,
+          "change_pct": 0.334
         },
         "sp500": {
           "ticker": "^GSPC",
@@ -71,6 +116,14 @@
           "post_date": "2026-09-17",
           "post_close": 156.014,
           "change_pct": 0.482
+        },
+        "nikkei225": {
+          "ticker": "^N225",
+          "prev_date": "2026-09-16",
+          "prev_close": 63923.0,
+          "post_date": "2026-09-17",
+          "post_close": 64136.25,
+          "change_pct": 0.334
         },
         "sp500": {
           "ticker": "^GSPC",
