@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T23:09:07.525028+00:00",
+  "generated_at": "2026-09-19T08:19:31.229017+00:00",
   "events": [
     {
       "indicator": "boj_rate",
@@ -24,8 +24,16 @@
           "prev_date": "2026-09-17",
           "prev_close": 156.014,
           "post_date": "2026-09-18",
-          "post_close": 156.855,
-          "change_pct": 0.539
+          "post_close": 156.129,
+          "change_pct": 0.074
+        },
+        "nikkei225": {
+          "ticker": "^N225",
+          "prev_date": "2026-09-17",
+          "prev_close": 64136.25,
+          "post_date": "2026-09-18",
+          "post_close": 65018.9492,
+          "change_pct": 1.376
         },
         "sp500": {
           "ticker": "^GSPC",
