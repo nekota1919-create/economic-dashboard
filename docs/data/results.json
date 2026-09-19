@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T08:19:31.229017+00:00",
+  "generated_at": "2026-09-19T16:57:44.587249+00:00",
   "events": [
     {
       "indicator": "boj_rate",
@@ -170,11 +170,11 @@
       "datetime_jst": "2026-09-17T03:00:00+09:00",
       "forecast": "4.00%",
       "previous": "3.75%",
-      "actual_period": "2026-09-18",
+      "actual_period": "2026-09-19",
       "actual_first_release": "4%",
-      "actual_first_release_date": "2026-09-18",
+      "actual_first_release_date": "2026-09-19",
       "actual_latest": "4%",
-      "actual_latest_date": "2026-09-18",
+      "actual_latest_date": "2026-09-19",
       "was_revised": false,
       "data_note": null,
       "market_reaction": {
