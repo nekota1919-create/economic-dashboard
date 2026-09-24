@@ -1,6 +1,51 @@
 {
-  "generated_at": "2026-09-24T08:47:58.921807+00:00",
+  "generated_at": "2026-09-24T18:05:39.192894+00:00",
   "events": [
+    {
+      "indicator": "us_jobless_claims",
+      "label": "米新規失業保険申請件数",
+      "country": "US",
+      "ff_title": "Unemployment Claims",
+      "impact": "Medium",
+      "datetime_utc": "2026-09-24T12:30:00+00:00",
+      "datetime_jst": "2026-09-24T21:30:00+09:00",
+      "forecast": "201K",
+      "previous": "196K",
+      "actual_period": "2026-09-19",
+      "actual_first_release": "197K",
+      "actual_first_release_date": "2026-09-24",
+      "actual_latest": "197K",
+      "actual_latest_date": "2026-09-24",
+      "was_revised": false,
+      "data_note": null,
+      "market_reaction": {
+        "usdjpy": {
+          "ticker": "JPY=X",
+          "prev_date": "2026-09-23",
+          "prev_close": 157.464,
+          "post_date": "2026-09-24",
+          "post_close": 158.964,
+          "change_pct": 0.953
+        },
+        "sp500": {
+          "ticker": "^GSPC",
+          "prev_date": "2026-09-23",
+          "prev_close": 7706.0298,
+          "post_date": "2026-09-24",
+          "post_close": 7688.6699,
+          "change_pct": -0.225
+        },
+        "us10y": {
+          "ticker": "^TNX",
+          "prev_date": "2026-09-23",
+          "prev_close": 5.114,
+          "post_date": "2026-09-24",
+          "post_close": 5.16,
+          "change_pct": 0.899
+        }
+      },
+      "beat_forecast": false
+    },
     {
       "indicator": "boj_rate",
       "label": "日銀政策金利",
