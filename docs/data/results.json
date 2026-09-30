@@ -1,6 +1,96 @@
 {
-  "generated_at": "2026-09-30T10:02:29.073688+00:00",
+  "generated_at": "2026-09-30T18:44:44.747670+00:00",
   "events": [
+    {
+      "indicator": "us_pce",
+      "label": "米PCEコア物価指数(前月比)",
+      "country": "US",
+      "ff_title": "Core PCE Price Index m/m",
+      "impact": "High",
+      "datetime_utc": "2026-09-30T12:30:00+00:00",
+      "datetime_jst": "2026-09-30T21:30:00+09:00",
+      "forecast": "0.3%",
+      "previous": "0.2%",
+      "actual_period": "2026-08-01",
+      "actual_first_release": "0.25%",
+      "actual_first_release_date": "2026-09-30",
+      "actual_latest": "0.25%",
+      "actual_latest_date": "2026-09-30",
+      "was_revised": false,
+      "data_note": null,
+      "market_reaction": {
+        "usdjpy": {
+          "ticker": "JPY=X",
+          "prev_date": "2026-09-29",
+          "prev_close": 157.361,
+          "post_date": "2026-09-30",
+          "post_close": 157.322,
+          "change_pct": -0.025
+        },
+        "sp500": {
+          "ticker": "^GSPC",
+          "prev_date": "2026-09-29",
+          "prev_close": 7670.8398,
+          "post_date": "2026-09-30",
+          "post_close": 7697.5298,
+          "change_pct": 0.348
+        },
+        "us10y": {
+          "ticker": "^TNX",
+          "prev_date": "2026-09-29",
+          "prev_close": 5.255,
+          "post_date": "2026-09-30",
+          "post_close": 5.289,
+          "change_pct": 0.647
+        }
+      },
+      "beat_forecast": false
+    },
+    {
+      "indicator": "us_gdp",
+      "label": "米GDP(前期比年率)",
+      "country": "US",
+      "ff_title": "Final GDP q/q",
+      "impact": "High",
+      "datetime_utc": "2026-09-30T12:30:00+00:00",
+      "datetime_jst": "2026-09-30T21:30:00+09:00",
+      "forecast": "1.5%",
+      "previous": "1.5%",
+      "actual_period": "2026-04-01",
+      "actual_first_release": "1.5%",
+      "actual_first_release_date": "2026-07-30",
+      "actual_latest": "2.2%",
+      "actual_latest_date": "2026-09-30",
+      "was_revised": true,
+      "data_note": null,
+      "market_reaction": {
+        "usdjpy": {
+          "ticker": "JPY=X",
+          "prev_date": "2026-09-29",
+          "prev_close": 157.361,
+          "post_date": "2026-09-30",
+          "post_close": 157.322,
+          "change_pct": -0.025
+        },
+        "sp500": {
+          "ticker": "^GSPC",
+          "prev_date": "2026-09-29",
+          "prev_close": 7670.8398,
+          "post_date": "2026-09-30",
+          "post_close": 7697.5298,
+          "change_pct": 0.348
+        },
+        "us10y": {
+          "ticker": "^TNX",
+          "prev_date": "2026-09-29",
+          "prev_close": 5.255,
+          "post_date": "2026-09-30",
+          "post_close": 5.289,
+          "change_pct": 0.647
+        }
+      },
+      "beat_forecast": null
+    },
     {
       "indicator": "us_michigan_sentiment",
       "label": "米ミシガン大学消費者信頼感指数",
