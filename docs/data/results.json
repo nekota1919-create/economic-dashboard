@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T18:44:44.747670+00:00",
+  "generated_at": "2026-10-01T00:26:27.099104+00:00",
   "events": [
     {
       "indicator": "us_pce",
@@ -24,24 +24,32 @@
           "prev_date": "2026-09-29",
           "prev_close": 157.361,
           "post_date": "2026-09-30",
-          "post_close": 157.322,
-          "change_pct": -0.025
+          "post_close": 157.404,
+          "change_pct": 0.027
+        },
+        "nikkei225": {
+          "ticker": "^N225",
+          "prev_date": "2026-09-29",
+          "prev_close": 65481.2695,
+          "post_date": "2026-10-01",
+          "post_close": 67437.9766,
+          "change_pct": 2.988
         },
         "sp500": {
           "ticker": "^GSPC",
           "prev_date": "2026-09-29",
           "prev_close": 7670.8398,
           "post_date": "2026-09-30",
-          "post_close": 7697.5298,
-          "change_pct": 0.348
+          "post_close": 7651.54,
+          "change_pct": -0.252
         },
         "us10y": {
           "ticker": "^TNX",
           "prev_date": "2026-09-29",
           "prev_close": 5.255,
           "post_date": "2026-09-30",
-          "post_close": 5.289,
-          "change_pct": 0.647
+          "post_close": 5.293,
+          "change_pct": 0.723
         }
       },
       "beat_forecast": false
@@ -69,24 +77,32 @@
           "prev_date": "2026-09-29",
           "prev_close": 157.361,
           "post_date": "2026-09-30",
-          "post_close": 157.322,
-          "change_pct": -0.025
+          "post_close": 157.404,
+          "change_pct": 0.027
+        },
+        "nikkei225": {
+          "ticker": "^N225",
+          "prev_date": "2026-09-29",
+          "prev_close": 65481.2695,
+          "post_date": "2026-10-01",
+          "post_close": 67437.9766,
+          "change_pct": 2.988
         },
         "sp500": {
           "ticker": "^GSPC",
           "prev_date": "2026-09-29",
           "prev_close": 7670.8398,
           "post_date": "2026-09-30",
-          "post_close": 7697.5298,
-          "change_pct": 0.348
+          "post_close": 7651.54,
+          "change_pct": -0.252
         },
         "us10y": {
           "ticker": "^TNX",
           "prev_date": "2026-09-29",
           "prev_close": 5.255,
           "post_date": "2026-09-30",
-          "post_close": 5.289,
-          "change_pct": 0.647
+          "post_close": 5.293,
+          "change_pct": 0.723
         }
       },
       "beat_forecast": null
