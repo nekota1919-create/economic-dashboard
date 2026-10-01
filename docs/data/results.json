@@ -1,6 +1,51 @@
 {
-  "generated_at": "2026-10-01T10:30:21.729003+00:00",
+  "generated_at": "2026-10-01T19:11:08.586910+00:00",
   "events": [
+    {
+      "indicator": "us_jobless_claims",
+      "label": "米新規失業保険申請件数",
+      "country": "US",
+      "ff_title": "Unemployment Claims",
+      "impact": "Medium",
+      "datetime_utc": "2026-10-01T12:30:00+00:00",
+      "datetime_jst": "2026-10-01T21:30:00+09:00",
+      "forecast": "201K",
+      "previous": "197K",
+      "actual_period": "2026-09-26",
+      "actual_first_release": "197K",
+      "actual_first_release_date": "2026-10-01",
+      "actual_latest": "197K",
+      "actual_latest_date": "2026-10-01",
+      "was_revised": false,
+      "data_note": null,
+      "market_reaction": {
+        "usdjpy": {
+          "ticker": "JPY=X",
+          "prev_date": "2026-09-30",
+          "prev_close": 157.404,
+          "post_date": "2026-10-01",
+          "post_close": 158.053,
+          "change_pct": 0.412
+        },
+        "sp500": {
+          "ticker": "^GSPC",
+          "prev_date": "2026-09-30",
+          "prev_close": 7651.54,
+          "post_date": "2026-10-01",
+          "post_close": 7674.9102,
+          "change_pct": 0.305
+        },
+        "us10y": {
+          "ticker": "^TNX",
+          "prev_date": "2026-09-30",
+          "prev_close": 5.293,
+          "post_date": "2026-10-01",
+          "post_close": 5.239,
+          "change_pct": -1.02
+        }
+      },
+      "beat_forecast": false
+    },
     {
       "indicator": "us_pce",
       "label": "米PCEコア物価指数(前月比)",
