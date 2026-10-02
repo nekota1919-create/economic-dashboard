@@ -1,6 +1,96 @@
 {
-  "generated_at": "2026-10-02T10:05:35.127746+00:00",
+  "generated_at": "2026-10-02T18:51:11.776503+00:00",
   "events": [
+    {
+      "indicator": "us_nfp",
+      "label": "米雇用統計(非農業部門雇用者数・前月差)",
+      "country": "US",
+      "ff_title": "Non-Farm Employment Change",
+      "impact": "High",
+      "datetime_utc": "2026-10-02T12:30:00+00:00",
+      "datetime_jst": "2026-10-02T21:30:00+09:00",
+      "forecast": "89K",
+      "previous": "162K",
+      "actual_period": "2026-09-01",
+      "actual_first_release": "29K",
+      "actual_first_release_date": "2026-10-02",
+      "actual_latest": "29K",
+      "actual_latest_date": "2026-10-02",
+      "was_revised": false,
+      "data_note": null,
+      "market_reaction": {
+        "usdjpy": {
+          "ticker": "JPY=X",
+          "prev_date": "2026-10-01",
+          "prev_close": 157.558,
+          "post_date": "2026-10-02",
+          "post_close": 157.79,
+          "change_pct": 0.147
+        },
+        "sp500": {
+          "ticker": "^GSPC",
+          "prev_date": "2026-10-01",
+          "prev_close": 7666.4502,
+          "post_date": "2026-10-02",
+          "post_close": 7720.9702,
+          "change_pct": 0.711
+        },
+        "us10y": {
+          "ticker": "^TNX",
+          "prev_date": "2026-10-01",
+          "prev_close": 5.237,
+          "post_date": "2026-10-02",
+          "post_close": 5.285,
+          "change_pct": 0.917
+        }
+      },
+      "beat_forecast": false
+    },
+    {
+      "indicator": "us_unemployment",
+      "label": "米失業率",
+      "country": "US",
+      "ff_title": "Unemployment Rate",
+      "impact": "High",
+      "datetime_utc": "2026-10-02T12:30:00+00:00",
+      "datetime_jst": "2026-10-02T21:30:00+09:00",
+      "forecast": "4.1%",
+      "previous": "4.1%",
+      "actual_period": "2026-09-01",
+      "actual_first_release": "4.2%",
+      "actual_first_release_date": "2026-10-02",
+      "actual_latest": "4.2%",
+      "actual_latest_date": "2026-10-02",
+      "was_revised": false,
+      "data_note": null,
+      "market_reaction": {
+        "usdjpy": {
+          "ticker": "JPY=X",
+          "prev_date": "2026-10-01",
+          "prev_close": 157.558,
+          "post_date": "2026-10-02",
+          "post_close": 157.79,
+          "change_pct": 0.147
+        },
+        "sp500": {
+          "ticker": "^GSPC",
+          "prev_date": "2026-10-01",
+          "prev_close": 7666.4502,
+          "post_date": "2026-10-02",
+          "post_close": 7720.9702,
+          "change_pct": 0.711
+        },
+        "us10y": {
+          "ticker": "^TNX",
+          "prev_date": "2026-10-01",
+          "prev_close": 5.237,
+          "post_date": "2026-10-02",
+          "post_close": 5.285,
+          "change_pct": 0.917
+        }
+      },
+      "beat_forecast": true
+    },
     {
       "indicator": "jp_cpi",
       "label": "日CPI(全国消費者物価指数)",
