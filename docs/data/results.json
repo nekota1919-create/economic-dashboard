@@ -1,6 +1,56 @@
 {
-  "generated_at": "2026-10-01T19:11:08.586910+00:00",
+  "generated_at": "2026-10-02T00:37:30.913509+00:00",
   "events": [
+    {
+      "indicator": "jp_cpi",
+      "label": "日CPI(全国消費者物価指数)",
+      "country": "JP",
+      "ff_title": "Tokyo Core CPI y/y",
+      "impact": "Medium",
+      "datetime_utc": "2026-10-01T23:30:00+00:00",
+      "datetime_jst": "2026-10-02T08:30:00+09:00",
+      "forecast": "2.4%",
+      "previous": "1.8%",
+      "actual_first_release": null,
+      "actual_latest": null,
+      "was_revised": null,
+      "data_note": "e-Stat未連携のため実績値は未取得(今後対応予定)",
+      "market_reaction": {
+        "usdjpy": {
+          "ticker": "JPY=X",
+          "prev_date": "2026-09-30",
+          "prev_close": 157.404,
+          "post_date": "2026-10-01",
+          "post_close": 157.558,
+          "change_pct": 0.098
+        },
+        "nikkei225": {
+          "ticker": "^N225",
+          "prev_date": "2026-09-30",
+          "prev_close": 66753.7188,
+          "post_date": "2026-10-02",
+          "post_close": 68688.75,
+          "change_pct": 2.899
+        },
+        "sp500": {
+          "ticker": "^GSPC",
+          "prev_date": "2026-09-30",
+          "prev_close": 7651.54,
+          "post_date": "2026-10-01",
+          "post_close": 7666.4502,
+          "change_pct": 0.195
+        },
+        "us10y": {
+          "ticker": "^TNX",
+          "prev_date": "2026-09-30",
+          "prev_close": 5.293,
+          "post_date": "2026-10-01",
+          "post_close": 5.237,
+          "change_pct": -1.058
+        }
+      },
+      "beat_forecast": null
+    },
     {
       "indicator": "us_jobless_claims",
       "label": "米新規失業保険申請件数",
@@ -24,24 +74,32 @@
           "prev_date": "2026-09-30",
           "prev_close": 157.404,
           "post_date": "2026-10-01",
-          "post_close": 158.053,
-          "change_pct": 0.412
+          "post_close": 157.558,
+          "change_pct": 0.098
+        },
+        "nikkei225": {
+          "ticker": "^N225",
+          "prev_date": "2026-09-30",
+          "prev_close": 66753.7188,
+          "post_date": "2026-10-02",
+          "post_close": 68688.75,
+          "change_pct": 2.899
         },
         "sp500": {
           "ticker": "^GSPC",
           "prev_date": "2026-09-30",
           "prev_close": 7651.54,
           "post_date": "2026-10-01",
-          "post_close": 7674.9102,
-          "change_pct": 0.305
+          "post_close": 7666.4502,
+          "change_pct": 0.195
         },
         "us10y": {
           "ticker": "^TNX",
           "prev_date": "2026-09-30",
           "prev_close": 5.293,
           "post_date": "2026-10-01",
-          "post_close": 5.239,
-          "change_pct": -1.02
+          "post_close": 5.237,
+          "change_pct": -1.058
         }
       },
       "beat_forecast": false
