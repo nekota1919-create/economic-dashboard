@@ -1,6 +1,51 @@
 {
-  "generated_at": "2026-10-08T10:58:33.905384+00:00",
+  "generated_at": "2026-10-08T19:35:50.323423+00:00",
   "events": [
+    {
+      "indicator": "us_jobless_claims",
+      "label": "米新規失業保険申請件数",
+      "country": "US",
+      "ff_title": "Unemployment Claims",
+      "impact": "Medium",
+      "datetime_utc": "2026-10-08T12:30:00+00:00",
+      "datetime_jst": "2026-10-08T21:30:00+09:00",
+      "forecast": "200K",
+      "previous": "197K",
+      "actual_period": "2026-10-03",
+      "actual_first_release": "197K",
+      "actual_first_release_date": "2026-10-08",
+      "actual_latest": "197K",
+      "actual_latest_date": "2026-10-08",
+      "was_revised": false,
+      "data_note": null,
+      "market_reaction": {
+        "usdjpy": {
+          "ticker": "JPY=X",
+          "prev_date": "2026-10-07",
+          "prev_close": 158.296,
+          "post_date": "2026-10-08",
+          "post_close": 157.891,
+          "change_pct": -0.256
+        },
+        "sp500": {
+          "ticker": "^GSPC",
+          "prev_date": "2026-10-07",
+          "prev_close": 7801.77,
+          "post_date": "2026-10-08",
+          "post_close": 7759.7598,
+          "change_pct": -0.538
+        },
+        "us10y": {
+          "ticker": "^TNX",
+          "prev_date": "2026-10-07",
+          "prev_close": 5.277,
+          "post_date": "2026-10-08",
+          "post_close": 5.231,
+          "change_pct": -0.872
+        }
+      },
+      "beat_forecast": false
+    },
     {
       "indicator": "us_nfp",
       "label": "米雇用統計(非農業部門雇用者数・前月差)",
