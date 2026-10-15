@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T23:48:26.957624+00:00",
+  "generated_at": "2026-10-15T08:37:39.677555+00:00",
   "events": [
     {
       "indicator": "us_cpi",
@@ -26,6 +26,14 @@
           "post_date": "2026-10-14",
           "post_close": 158.322,
           "change_pct": -0.125
+        },
+        "nikkei225": {
+          "ticker": "^N225",
+          "prev_date": "2026-10-13",
+          "prev_close": 67777.5234,
+          "post_date": "2026-10-14",
+          "post_close": 67744.2891,
+          "change_pct": -0.049
         },
         "sp500": {
           "ticker": "^GSPC",
