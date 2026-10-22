@@ -1,6 +1,51 @@
 {
-  "generated_at": "2026-10-22T08:57:59.370225+00:00",
+  "generated_at": "2026-10-22T18:13:29.665161+00:00",
   "events": [
+    {
+      "indicator": "us_jobless_claims",
+      "label": "米新規失業保険申請件数",
+      "country": "US",
+      "ff_title": "Unemployment Claims",
+      "impact": "Medium",
+      "datetime_utc": "2026-10-22T12:30:00+00:00",
+      "datetime_jst": "2026-10-22T21:30:00+09:00",
+      "forecast": "200K",
+      "previous": "199K",
+      "actual_period": "2026-10-17",
+      "actual_first_release": "194K",
+      "actual_first_release_date": "2026-10-22",
+      "actual_latest": "194K",
+      "actual_latest_date": "2026-10-22",
+      "was_revised": false,
+      "data_note": null,
+      "market_reaction": {
+        "usdjpy": {
+          "ticker": "JPY=X",
+          "prev_date": "2026-10-21",
+          "prev_close": 158.268,
+          "post_date": "2026-10-22",
+          "post_close": 156.947,
+          "change_pct": -0.835
+        },
+        "sp500": {
+          "ticker": "^GSPC",
+          "prev_date": "2026-10-21",
+          "prev_close": 7757.1699,
+          "post_date": "2026-10-22",
+          "post_close": 7653.9502,
+          "change_pct": -1.331
+        },
+        "us10y": {
+          "ticker": "^TNX",
+          "prev_date": "2026-10-21",
+          "prev_close": 5.146,
+          "post_date": "2026-10-22",
+          "post_close": 4.949,
+          "change_pct": -3.828
+        }
+      },
+      "beat_forecast": false
+    },
     {
       "indicator": "us_ppi",
       "label": "米PPI(生産者物価指数・前月比)",
