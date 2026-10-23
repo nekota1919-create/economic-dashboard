@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T18:02:43.388145+00:00",
+  "generated_at": "2026-10-23T23:47:56.010666+00:00",
   "events": [
     {
       "indicator": "us_michigan_sentiment",
@@ -24,24 +24,24 @@
           "prev_date": "2026-10-22",
           "prev_close": 158.132,
           "post_date": "2026-10-23",
-          "post_close": 156.891,
-          "change_pct": -0.785
+          "post_close": 156.814,
+          "change_pct": -0.833
         },
         "sp500": {
           "ticker": "^GSPC",
           "prev_date": "2026-10-22",
           "prev_close": 7663.4302,
           "post_date": "2026-10-23",
-          "post_close": 7634.6201,
-          "change_pct": -0.376
+          "post_close": 7623.6802,
+          "change_pct": -0.519
         },
         "us10y": {
           "ticker": "^TNX",
           "prev_date": "2026-10-22",
           "prev_close": 4.953,
           "post_date": "2026-10-23",
-          "post_close": 4.984,
-          "change_pct": 0.626
+          "post_close": 4.988,
+          "change_pct": 0.707
         }
       },
       "beat_forecast": true
