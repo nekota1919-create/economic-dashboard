@@ -1,6 +1,51 @@
 {
-  "generated_at": "2026-10-28T10:04:51.856770+00:00",
+  "generated_at": "2026-10-28T19:13:00.544331+00:00",
   "events": [
+    {
+      "indicator": "us_fomc",
+      "label": "FOMC政策金利(誘導目標レンジ上限)",
+      "country": "US",
+      "ff_title": "Federal Funds Rate",
+      "impact": "High",
+      "datetime_utc": "2026-10-28T18:00:00+00:00",
+      "datetime_jst": "2026-10-29T03:00:00+09:00",
+      "forecast": "4.00%",
+      "previous": "4.00%",
+      "actual_period": "2026-10-28",
+      "actual_first_release": "4%",
+      "actual_first_release_date": "2026-10-28",
+      "actual_latest": "4%",
+      "actual_latest_date": "2026-10-28",
+      "was_revised": false,
+      "data_note": null,
+      "market_reaction": {
+        "usdjpy": {
+          "ticker": "JPY=X",
+          "prev_date": "2026-10-27",
+          "prev_close": 157.528,
+          "post_date": "2026-10-28",
+          "post_close": 157.914,
+          "change_pct": 0.245
+        },
+        "sp500": {
+          "ticker": "^GSPC",
+          "prev_date": "2026-10-27",
+          "prev_close": 7722.6001,
+          "post_date": "2026-10-28",
+          "post_close": 7723.9199,
+          "change_pct": 0.017
+        },
+        "us10y": {
+          "ticker": "^TNX",
+          "prev_date": "2026-10-27",
+          "prev_close": 4.993,
+          "post_date": "2026-10-28",
+          "post_close": 5.045,
+          "change_pct": 1.041
+        }
+      },
+      "beat_forecast": null
+    },
     {
       "indicator": "us_michigan_sentiment",
       "label": "米ミシガン大学消費者信頼感指数",
