@@ -1,6 +1,186 @@
 {
-  "generated_at": "2026-10-29T10:28:53.595628+00:00",
+  "generated_at": "2026-10-29T19:21:46.403060+00:00",
   "events": [
+    {
+      "indicator": "ecb_rate",
+      "label": "ECB政策金利(中銀預金金利)",
+      "country": "EU",
+      "ff_title": "Main Refinancing Rate",
+      "impact": "High",
+      "datetime_utc": "2026-10-29T13:15:00+00:00",
+      "datetime_jst": "2026-10-29T22:15:00+09:00",
+      "forecast": "2.65%",
+      "previous": "2.65%",
+      "actual_period": "2026-10-29",
+      "actual_first_release": "2.5%",
+      "actual_first_release_date": "2026-10-29",
+      "actual_latest": "2.5%",
+      "actual_latest_date": "2026-10-29",
+      "was_revised": false,
+      "data_note": null,
+      "market_reaction": {
+        "usdjpy": {
+          "ticker": "JPY=X",
+          "prev_date": "2026-10-28",
+          "prev_close": 157.993,
+          "post_date": "2026-10-29",
+          "post_close": 157.936,
+          "change_pct": -0.036
+        },
+        "sp500": {
+          "ticker": "^GSPC",
+          "prev_date": "2026-10-28",
+          "prev_close": 7743.98,
+          "post_date": "2026-10-29",
+          "post_close": 7704.2202,
+          "change_pct": -0.513
+        },
+        "us10y": {
+          "ticker": "^TNX",
+          "prev_date": "2026-10-28",
+          "prev_close": 5.045,
+          "post_date": "2026-10-29",
+          "post_close": 4.989,
+          "change_pct": -1.11
+        }
+      },
+      "beat_forecast": false
+    },
+    {
+      "indicator": "us_gdp",
+      "label": "米GDP(前期比年率)",
+      "country": "US",
+      "ff_title": "Advance GDP q/q",
+      "impact": "High",
+      "datetime_utc": "2026-10-29T12:30:00+00:00",
+      "datetime_jst": "2026-10-29T21:30:00+09:00",
+      "forecast": "3.2%",
+      "previous": "1.5%",
+      "actual_period": "2026-07-01",
+      "actual_first_release": "3.4%",
+      "actual_first_release_date": "2026-10-29",
+      "actual_latest": "3.4%",
+      "actual_latest_date": "2026-10-29",
+      "was_revised": false,
+      "data_note": null,
+      "market_reaction": {
+        "usdjpy": {
+          "ticker": "JPY=X",
+          "prev_date": "2026-10-28",
+          "prev_close": 157.993,
+          "post_date": "2026-10-29",
+          "post_close": 157.936,
+          "change_pct": -0.036
+        },
+        "sp500": {
+          "ticker": "^GSPC",
+          "prev_date": "2026-10-28",
+          "prev_close": 7743.98,
+          "post_date": "2026-10-29",
+          "post_close": 7704.2202,
+          "change_pct": -0.513
+        },
+        "us10y": {
+          "ticker": "^TNX",
+          "prev_date": "2026-10-28",
+          "prev_close": 5.045,
+          "post_date": "2026-10-29",
+          "post_close": 4.989,
+          "change_pct": -1.11
+        }
+      },
+      "beat_forecast": true
+    },
+    {
+      "indicator": "us_pce",
+      "label": "米PCEコア物価指数(前月比)",
+      "country": "US",
+      "ff_title": "Core PCE Price Index m/m",
+      "impact": "High",
+      "datetime_utc": "2026-10-29T12:30:00+00:00",
+      "datetime_jst": "2026-10-29T21:30:00+09:00",
+      "forecast": "0.3%",
+      "previous": "0.2%",
+      "actual_period": "2026-09-01",
+      "actual_first_release": "0.32%",
+      "actual_first_release_date": "2026-10-29",
+      "actual_latest": "0.32%",
+      "actual_latest_date": "2026-10-29",
+      "was_revised": false,
+      "data_note": null,
+      "market_reaction": {
+        "usdjpy": {
+          "ticker": "JPY=X",
+          "prev_date": "2026-10-28",
+          "prev_close": 157.993,
+          "post_date": "2026-10-29",
+          "post_close": 157.936,
+          "change_pct": -0.036
+        },
+        "sp500": {
+          "ticker": "^GSPC",
+          "prev_date": "2026-10-28",
+          "prev_close": 7743.98,
+          "post_date": "2026-10-29",
+          "post_close": 7704.2202,
+          "change_pct": -0.513
+        },
+        "us10y": {
+          "ticker": "^TNX",
+          "prev_date": "2026-10-28",
+          "prev_close": 5.045,
+          "post_date": "2026-10-29",
+          "post_close": 4.989,
+          "change_pct": -1.11
+        }
+      },
+      "beat_forecast": true
+    },
+    {
+      "indicator": "us_jobless_claims",
+      "label": "米新規失業保険申請件数",
+      "country": "US",
+      "ff_title": "Unemployment Claims",
+      "impact": "Medium",
+      "datetime_utc": "2026-10-29T12:30:00+00:00",
+      "datetime_jst": "2026-10-29T21:30:00+09:00",
+      "forecast": "198K",
+      "previous": "194K",
+      "actual_period": "2026-10-24",
+      "actual_first_release": "194K",
+      "actual_first_release_date": "2026-10-29",
+      "actual_latest": "194K",
+      "actual_latest_date": "2026-10-29",
+      "was_revised": false,
+      "data_note": null,
+      "market_reaction": {
+        "usdjpy": {
+          "ticker": "JPY=X",
+          "prev_date": "2026-10-28",
+          "prev_close": 157.993,
+          "post_date": "2026-10-29",
+          "post_close": 157.936,
+          "change_pct": -0.036
+        },
+        "sp500": {
+          "ticker": "^GSPC",
+          "prev_date": "2026-10-28",
+          "prev_close": 7743.98,
+          "post_date": "2026-10-29",
+          "post_close": 7704.2202,
+          "change_pct": -0.513
+        },
+        "us10y": {
+          "ticker": "^TNX",
+          "prev_date": "2026-10-28",
+          "prev_close": 5.045,
+          "post_date": "2026-10-29",
+          "post_close": 4.989,
+          "change_pct": -1.11
+        }
+      },
+      "beat_forecast": false
+    },
     {
       "indicator": "us_fomc",
       "label": "FOMC政策金利(誘導目標レンジ上限)",
@@ -11,11 +191,11 @@
       "datetime_jst": "2026-10-29T03:00:00+09:00",
       "forecast": "4.00%",
       "previous": "4.00%",
-      "actual_period": "2026-10-28",
+      "actual_period": "2026-10-29",
       "actual_first_release": "4%",
-      "actual_first_release_date": "2026-10-28",
+      "actual_first_release_date": "2026-10-29",
       "actual_latest": "4%",
-      "actual_latest_date": "2026-10-28",
+      "actual_latest_date": "2026-10-29",
       "was_revised": false,
       "data_note": null,
       "market_reaction": {
