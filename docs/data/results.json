@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T00:41:53.008180+00:00",
+  "generated_at": "2026-10-29T10:28:53.595628+00:00",
   "events": [
     {
       "indicator": "us_fomc",
@@ -31,9 +31,9 @@
           "ticker": "^N225",
           "prev_date": "2026-10-27",
           "prev_close": 63268.3711,
-          "post_date": "2026-10-29",
-          "post_close": 64538.2383,
-          "change_pct": 2.007
+          "post_date": "2026-10-28",
+          "post_close": 63954.1914,
+          "change_pct": 1.084
         },
         "sp500": {
           "ticker": "^GSPC",
