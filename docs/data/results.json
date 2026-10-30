@@ -1,6 +1,43 @@
 {
-  "generated_at": "2026-10-30T00:42:44.424223+00:00",
+  "generated_at": "2026-10-30T10:29:50.686857+00:00",
   "events": [
+    {
+      "indicator": "boj_rate",
+      "label": "日銀政策金利",
+      "country": "JP",
+      "ff_title": "BOJ Policy Rate",
+      "impact": "High",
+      "datetime_utc": "2026-10-30T03:02:00+00:00",
+      "datetime_jst": "2026-10-30T12:02:00+09:00",
+      "forecast": "<1.25%",
+      "previous": "<1.25%",
+      "actual_period": "2026-10-30",
+      "actual_first_release": "1.25%",
+      "actual_first_release_date": "2026-10-30",
+      "actual_latest": "1.25%",
+      "actual_latest_date": "2026-10-30",
+      "was_revised": false,
+      "data_note": null,
+      "market_reaction": {
+        "usdjpy": {
+          "ticker": "JPY=X",
+          "prev_date": "2026-10-29",
+          "prev_close": 157.833,
+          "post_date": "2026-10-30",
+          "post_close": 157.265,
+          "change_pct": -0.36
+        },
+        "nikkei225": {
+          "ticker": "^N225",
+          "prev_date": "2026-10-29",
+          "prev_close": 64659.4688,
+          "post_date": "2026-10-30",
+          "post_close": 63290.1094,
+          "change_pct": -2.118
+        }
+      },
+      "beat_forecast": null
+    },
     {
       "indicator": "jp_cpi",
       "label": "日CPI(全国消費者物価指数)",
@@ -28,9 +65,9 @@
           "ticker": "^N225",
           "prev_date": "2026-10-28",
           "prev_close": 63954.1914,
-          "post_date": "2026-10-30",
-          "post_close": 63749.9492,
-          "change_pct": -0.319
+          "post_date": "2026-10-29",
+          "post_close": 64659.4688,
+          "change_pct": 1.103
         },
         "sp500": {
           "ticker": "^GSPC",
@@ -81,9 +118,9 @@
           "ticker": "^N225",
           "prev_date": "2026-10-28",
           "prev_close": 63954.1914,
-          "post_date": "2026-10-30",
-          "post_close": 63749.9492,
-          "change_pct": -0.319
+          "post_date": "2026-10-29",
+          "post_close": 64659.4688,
+          "change_pct": 1.103
         },
         "sp500": {
           "ticker": "^GSPC",
@@ -134,9 +171,9 @@
           "ticker": "^N225",
           "prev_date": "2026-10-28",
           "prev_close": 63954.1914,
-          "post_date": "2026-10-30",
-          "post_close": 63749.9492,
-          "change_pct": -0.319
+          "post_date": "2026-10-29",
+          "post_close": 64659.4688,
+          "change_pct": 1.103
         },
         "sp500": {
           "ticker": "^GSPC",
@@ -187,9 +224,9 @@
           "ticker": "^N225",
           "prev_date": "2026-10-28",
           "prev_close": 63954.1914,
-          "post_date": "2026-10-30",
-          "post_close": 63749.9492,
-          "change_pct": -0.319
+          "post_date": "2026-10-29",
+          "post_close": 64659.4688,
+          "change_pct": 1.103
         },
         "sp500": {
           "ticker": "^GSPC",
@@ -240,9 +277,9 @@
           "ticker": "^N225",
           "prev_date": "2026-10-28",
           "prev_close": 63954.1914,
-          "post_date": "2026-10-30",
-          "post_close": 63749.9492,
-          "change_pct": -0.319
+          "post_date": "2026-10-29",
+          "post_close": 64659.4688,
+          "change_pct": 1.103
         },
         "sp500": {
           "ticker": "^GSPC",
