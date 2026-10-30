@@ -1,6 +1,56 @@
 {
-  "generated_at": "2026-10-29T19:21:46.403060+00:00",
+  "generated_at": "2026-10-30T00:42:44.424223+00:00",
   "events": [
+    {
+      "indicator": "jp_cpi",
+      "label": "日CPI(全国消費者物価指数)",
+      "country": "JP",
+      "ff_title": "Tokyo Core CPI y/y",
+      "impact": "Medium",
+      "datetime_utc": "2026-10-29T23:30:00+00:00",
+      "datetime_jst": "2026-10-30T08:30:00+09:00",
+      "forecast": "2.6%",
+      "previous": "2.7%",
+      "actual_first_release": null,
+      "actual_latest": null,
+      "was_revised": null,
+      "data_note": "e-Stat未連携のため実績値は未取得(今後対応予定)",
+      "market_reaction": {
+        "usdjpy": {
+          "ticker": "JPY=X",
+          "prev_date": "2026-10-28",
+          "prev_close": 157.993,
+          "post_date": "2026-10-29",
+          "post_close": 157.833,
+          "change_pct": -0.101
+        },
+        "nikkei225": {
+          "ticker": "^N225",
+          "prev_date": "2026-10-28",
+          "prev_close": 63954.1914,
+          "post_date": "2026-10-30",
+          "post_close": 63749.9492,
+          "change_pct": -0.319
+        },
+        "sp500": {
+          "ticker": "^GSPC",
+          "prev_date": "2026-10-28",
+          "prev_close": 7743.98,
+          "post_date": "2026-10-29",
+          "post_close": 7720.3901,
+          "change_pct": -0.305
+        },
+        "us10y": {
+          "ticker": "^TNX",
+          "prev_date": "2026-10-28",
+          "prev_close": 5.045,
+          "post_date": "2026-10-29",
+          "post_close": 4.989,
+          "change_pct": -1.11
+        }
+      },
+      "beat_forecast": null
+    },
     {
       "indicator": "ecb_rate",
       "label": "ECB政策金利(中銀預金金利)",
@@ -24,16 +74,24 @@
           "prev_date": "2026-10-28",
           "prev_close": 157.993,
           "post_date": "2026-10-29",
-          "post_close": 157.936,
-          "change_pct": -0.036
+          "post_close": 157.833,
+          "change_pct": -0.101
+        },
+        "nikkei225": {
+          "ticker": "^N225",
+          "prev_date": "2026-10-28",
+          "prev_close": 63954.1914,
+          "post_date": "2026-10-30",
+          "post_close": 63749.9492,
+          "change_pct": -0.319
         },
         "sp500": {
           "ticker": "^GSPC",
           "prev_date": "2026-10-28",
           "prev_close": 7743.98,
           "post_date": "2026-10-29",
-          "post_close": 7704.2202,
-          "change_pct": -0.513
+          "post_close": 7720.3901,
+          "change_pct": -0.305
         },
         "us10y": {
           "ticker": "^TNX",
@@ -69,16 +127,24 @@
           "prev_date": "2026-10-28",
           "prev_close": 157.993,
           "post_date": "2026-10-29",
-          "post_close": 157.936,
-          "change_pct": -0.036
+          "post_close": 157.833,
+          "change_pct": -0.101
+        },
+        "nikkei225": {
+          "ticker": "^N225",
+          "prev_date": "2026-10-28",
+          "prev_close": 63954.1914,
+          "post_date": "2026-10-30",
+          "post_close": 63749.9492,
+          "change_pct": -0.319
         },
         "sp500": {
           "ticker": "^GSPC",
           "prev_date": "2026-10-28",
           "prev_close": 7743.98,
           "post_date": "2026-10-29",
-          "post_close": 7704.2202,
-          "change_pct": -0.513
+          "post_close": 7720.3901,
+          "change_pct": -0.305
         },
         "us10y": {
           "ticker": "^TNX",
@@ -114,16 +180,24 @@
           "prev_date": "2026-10-28",
           "prev_close": 157.993,
           "post_date": "2026-10-29",
-          "post_close": 157.936,
-          "change_pct": -0.036
+          "post_close": 157.833,
+          "change_pct": -0.101
+        },
+        "nikkei225": {
+          "ticker": "^N225",
+          "prev_date": "2026-10-28",
+          "prev_close": 63954.1914,
+          "post_date": "2026-10-30",
+          "post_close": 63749.9492,
+          "change_pct": -0.319
         },
         "sp500": {
           "ticker": "^GSPC",
           "prev_date": "2026-10-28",
           "prev_close": 7743.98,
           "post_date": "2026-10-29",
-          "post_close": 7704.2202,
-          "change_pct": -0.513
+          "post_close": 7720.3901,
+          "change_pct": -0.305
         },
         "us10y": {
           "ticker": "^TNX",
@@ -159,16 +233,24 @@
           "prev_date": "2026-10-28",
           "prev_close": 157.993,
           "post_date": "2026-10-29",
-          "post_close": 157.936,
-          "change_pct": -0.036
+          "post_close": 157.833,
+          "change_pct": -0.101
+        },
+        "nikkei225": {
+          "ticker": "^N225",
+          "prev_date": "2026-10-28",
+          "prev_close": 63954.1914,
+          "post_date": "2026-10-30",
+          "post_close": 63749.9492,
+          "change_pct": -0.319
         },
         "sp500": {
           "ticker": "^GSPC",
           "prev_date": "2026-10-28",
           "prev_close": 7743.98,
           "post_date": "2026-10-29",
-          "post_close": 7704.2202,
-          "change_pct": -0.513
+          "post_close": 7720.3901,
+          "change_pct": -0.305
         },
         "us10y": {
           "ticker": "^TNX",
