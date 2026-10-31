@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T18:56:18.557641+00:00",
+  "generated_at": "2026-10-31T00:35:52.972059+00:00",
   "events": [
     {
       "indicator": "boj_rate",
@@ -24,16 +24,16 @@
           "prev_date": "2026-10-29",
           "prev_close": 157.833,
           "post_date": "2026-10-30",
-          "post_close": 157.369,
-          "change_pct": -0.294
+          "post_close": 157.804,
+          "change_pct": -0.018
         },
         "sp500": {
           "ticker": "^GSPC",
           "prev_date": "2026-10-29",
           "prev_close": 7720.3901,
           "post_date": "2026-10-30",
-          "post_close": 7531.8301,
-          "change_pct": -2.442
+          "post_close": 7580.0698,
+          "change_pct": -1.818
         },
         "us10y": {
           "ticker": "^TNX",
