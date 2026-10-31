@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T00:35:52.972059+00:00",
+  "generated_at": "2026-10-31T09:59:20.499864+00:00",
   "events": [
     {
       "indicator": "boj_rate",
@@ -26,6 +26,14 @@
           "post_date": "2026-10-30",
           "post_close": 157.804,
           "change_pct": -0.018
+        },
+        "nikkei225": {
+          "ticker": "^N225",
+          "prev_date": "2026-10-29",
+          "prev_close": 64659.4688,
+          "post_date": "2026-10-30",
+          "post_close": 63290.1094,
+          "change_pct": -2.118
         },
         "sp500": {
           "ticker": "^GSPC",
