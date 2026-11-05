@@ -1,6 +1,96 @@
 {
-  "generated_at": "2026-11-05T11:40:20.694121+00:00",
+  "generated_at": "2026-11-05T20:53:42.979586+00:00",
   "events": [
+    {
+      "indicator": "us_jobless_claims",
+      "label": "米新規失業保険申請件数",
+      "country": "US",
+      "ff_title": "Unemployment Claims",
+      "impact": "Medium",
+      "datetime_utc": "2026-11-05T13:30:00+00:00",
+      "datetime_jst": "2026-11-05T22:30:00+09:00",
+      "forecast": "197K",
+      "previous": "194K",
+      "actual_period": "2026-10-31",
+      "actual_first_release": "189K",
+      "actual_first_release_date": "2026-11-05",
+      "actual_latest": "189K",
+      "actual_latest_date": "2026-11-05",
+      "was_revised": false,
+      "data_note": null,
+      "market_reaction": {
+        "usdjpy": {
+          "ticker": "JPY=X",
+          "prev_date": "2026-11-04",
+          "prev_close": 158.469,
+          "post_date": "2026-11-05",
+          "post_close": 157.791,
+          "change_pct": -0.428
+        },
+        "sp500": {
+          "ticker": "^GSPC",
+          "prev_date": "2026-11-04",
+          "prev_close": 7688.6201,
+          "post_date": "2026-11-05",
+          "post_close": 7382.71,
+          "change_pct": -3.979
+        },
+        "us10y": {
+          "ticker": "^TNX",
+          "prev_date": "2026-11-04",
+          "prev_close": 4.894,
+          "post_date": "2026-11-05",
+          "post_close": 4.837,
+          "change_pct": -1.165
+        }
+      },
+      "beat_forecast": false
+    },
+    {
+      "indicator": "boe_rate",
+      "label": "BOE政策金利(SONIA参照)",
+      "country": "UK",
+      "ff_title": "Official Bank Rate",
+      "impact": "High",
+      "datetime_utc": "2026-11-05T12:00:00+00:00",
+      "datetime_jst": "2026-11-05T21:00:00+09:00",
+      "forecast": "4.00%",
+      "previous": "3.75%",
+      "actual_period": "2026-11-03",
+      "actual_first_release": "3.73%",
+      "actual_first_release_date": "2026-11-05",
+      "actual_latest": "3.73%",
+      "actual_latest_date": "2026-11-05",
+      "was_revised": false,
+      "data_note": null,
+      "market_reaction": {
+        "usdjpy": {
+          "ticker": "JPY=X",
+          "prev_date": "2026-11-04",
+          "prev_close": 158.469,
+          "post_date": "2026-11-05",
+          "post_close": 157.791,
+          "change_pct": -0.428
+        },
+        "sp500": {
+          "ticker": "^GSPC",
+          "prev_date": "2026-11-04",
+          "prev_close": 7688.6201,
+          "post_date": "2026-11-05",
+          "post_close": 7382.71,
+          "change_pct": -3.979
+        },
+        "us10y": {
+          "ticker": "^TNX",
+          "prev_date": "2026-11-04",
+          "prev_close": 4.894,
+          "post_date": "2026-11-05",
+          "post_close": 4.837,
+          "change_pct": -1.165
+        }
+      },
+      "beat_forecast": false
+    },
     {
       "indicator": "boj_rate",
       "label": "日銀政策金利",

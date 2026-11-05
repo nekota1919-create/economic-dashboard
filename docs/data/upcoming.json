@@ -1,52 +1,6 @@
 {
-  "generated_at": "2026-11-05T11:40:20.694121+00:00",
+  "generated_at": "2026-11-05T20:53:42.979586+00:00",
   "events": [
-    {
-      "indicator": "boe_rate",
-      "label": "BOE政策金利(SONIA参照)",
-      "country": "UK",
-      "ff_title": "Official Bank Rate",
-      "impact": "High",
-      "datetime_utc": "2026-11-05T12:00:00+00:00",
-      "datetime_jst": "2026-11-05T21:00:00+09:00",
-      "forecast": "4.00%",
-      "previous": "3.75%",
-      "scenario": {
-        "forecast_value": 4.0,
-        "previous_value": 3.75,
-        "trend_label": "前回より加速の予想",
-        "text_lines": [
-          "予想: 4.00% / 前回: 3.75%(前回より加速の予想)",
-          "上振れ(利上げ(タカ派)): 予想よりタカ派な決定の場合、ポンド高に振れやすいとされる",
-          "下振れ(利下げ/据置(ハト派)): 予想よりハト派な決定の場合、ポンド安に振れやすいとされる",
-          "直近2回の発表中0回が予想を上回る結果",
-          "※機械的に生成した一般論の参考情報であり、投資助言ではありません。"
-        ]
-      }
-    },
-    {
-      "indicator": "us_jobless_claims",
-      "label": "米新規失業保険申請件数",
-      "country": "US",
-      "ff_title": "Unemployment Claims",
-      "impact": "Medium",
-      "datetime_utc": "2026-11-05T13:30:00+00:00",
-      "datetime_jst": "2026-11-05T22:30:00+09:00",
-      "forecast": "197K",
-      "previous": "194K",
-      "scenario": {
-        "forecast_value": 197.0,
-        "previous_value": 194.0,
-        "trend_label": "前回より加速の予想",
-        "text_lines": [
-          "予想: 197K / 前回: 194K(前回より加速の予想)",
-          "上振れ(労働市場の悪化(ハト派材料)): 予想より少ない(改善)場合、ドル高(円安)方向に振れやすいとされる",
-          "下振れ(労働市場の改善(タカ派材料)): 予想より多い(悪化)場合、ドル安(円高)方向に振れやすいとされる",
-          "直近3回の発表中0回が予想を上回る結果",
-          "※機械的に生成した一般論の参考情報であり、投資助言ではありません。"
-        ]
-      }
-    },
     {
       "indicator": "us_nfp",
       "label": "米雇用統計(非農業部門雇用者数・前月差)",
