@@ -1,6 +1,141 @@
 {
-  "generated_at": "2026-11-06T11:38:57.099223+00:00",
+  "generated_at": "2026-11-06T20:11:54.047832+00:00",
   "events": [
+    {
+      "indicator": "us_michigan_sentiment",
+      "label": "米ミシガン大学消費者信頼感指数",
+      "country": "US",
+      "ff_title": "Prelim UoM Consumer Sentiment",
+      "impact": "Medium",
+      "datetime_utc": "2026-11-06T15:00:00+00:00",
+      "datetime_jst": "2026-11-07T00:00:00+09:00",
+      "forecast": "48.1",
+      "previous": "46.3",
+      "actual_period": "2026-09-01",
+      "actual_first_release": "48.1",
+      "actual_first_release_date": "2026-09-25",
+      "actual_latest": "48.1",
+      "actual_latest_date": "2026-09-25",
+      "was_revised": false,
+      "data_note": null,
+      "market_reaction": {
+        "usdjpy": {
+          "ticker": "JPY=X",
+          "prev_date": "2026-11-05",
+          "prev_close": 158.357,
+          "post_date": "2026-11-06",
+          "post_close": 158.515,
+          "change_pct": 0.1
+        },
+        "sp500": {
+          "ticker": "^GSPC",
+          "prev_date": "2026-11-05",
+          "prev_close": 7353.73,
+          "post_date": "2026-11-06",
+          "post_close": 7409.3198,
+          "change_pct": 0.756
+        },
+        "us10y": {
+          "ticker": "^TNX",
+          "prev_date": "2026-11-05",
+          "prev_close": 4.837,
+          "post_date": "2026-11-06",
+          "post_close": 4.859,
+          "change_pct": 0.455
+        }
+      },
+      "beat_forecast": null
+    },
+    {
+      "indicator": "us_nfp",
+      "label": "米雇用統計(非農業部門雇用者数・前月差)",
+      "country": "US",
+      "ff_title": "Non-Farm Employment Change",
+      "impact": "High",
+      "datetime_utc": "2026-11-06T13:30:00+00:00",
+      "datetime_jst": "2026-11-06T22:30:00+09:00",
+      "forecast": "65K",
+      "previous": "29K",
+      "actual_period": "2026-10-01",
+      "actual_first_release": "165K",
+      "actual_first_release_date": "2026-11-06",
+      "actual_latest": "165K",
+      "actual_latest_date": "2026-11-06",
+      "was_revised": false,
+      "data_note": null,
+      "market_reaction": {
+        "usdjpy": {
+          "ticker": "JPY=X",
+          "prev_date": "2026-11-05",
+          "prev_close": 158.357,
+          "post_date": "2026-11-06",
+          "post_close": 158.515,
+          "change_pct": 0.1
+        },
+        "sp500": {
+          "ticker": "^GSPC",
+          "prev_date": "2026-11-05",
+          "prev_close": 7353.73,
+          "post_date": "2026-11-06",
+          "post_close": 7409.3198,
+          "change_pct": 0.756
+        },
+        "us10y": {
+          "ticker": "^TNX",
+          "prev_date": "2026-11-05",
+          "prev_close": 4.837,
+          "post_date": "2026-11-06",
+          "post_close": 4.859,
+          "change_pct": 0.455
+        }
+      },
+      "beat_forecast": true
+    },
+    {
+      "indicator": "us_unemployment",
+      "label": "米失業率",
+      "country": "US",
+      "ff_title": "Unemployment Rate",
+      "impact": "High",
+      "datetime_utc": "2026-11-06T13:30:00+00:00",
+      "datetime_jst": "2026-11-06T22:30:00+09:00",
+      "forecast": "4.2%",
+      "previous": "4.2%",
+      "actual_period": "2026-10-01",
+      "actual_first_release": "4.1%",
+      "actual_first_release_date": "2026-11-06",
+      "actual_latest": "4.1%",
+      "actual_latest_date": "2026-11-06",
+      "was_revised": false,
+      "data_note": null,
+      "market_reaction": {
+        "usdjpy": {
+          "ticker": "JPY=X",
+          "prev_date": "2026-11-05",
+          "prev_close": 158.357,
+          "post_date": "2026-11-06",
+          "post_close": 158.515,
+          "change_pct": 0.1
+        },
+        "sp500": {
+          "ticker": "^GSPC",
+          "prev_date": "2026-11-05",
+          "prev_close": 7353.73,
+          "post_date": "2026-11-06",
+          "post_close": 7409.3198,
+          "change_pct": 0.756
+        },
+        "us10y": {
+          "ticker": "^TNX",
+          "prev_date": "2026-11-05",
+          "prev_close": 4.837,
+          "post_date": "2026-11-06",
+          "post_close": 4.859,
+          "change_pct": 0.455
+        }
+      },
+      "beat_forecast": false
+    },
     {
       "indicator": "us_jobless_claims",
       "label": "米新規失業保険申請件数",
