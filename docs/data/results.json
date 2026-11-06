@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T01:26:44.192403+00:00",
+  "generated_at": "2026-11-06T11:38:57.099223+00:00",
   "events": [
     {
       "indicator": "us_jobless_claims",
@@ -31,9 +31,9 @@
           "ticker": "^N225",
           "prev_date": "2026-11-04",
           "prev_close": 62188.6289,
-          "post_date": "2026-11-06",
-          "post_close": 57033.5391,
-          "change_pct": -8.289
+          "post_date": "2026-11-05",
+          "post_close": 61077.8984,
+          "change_pct": -1.786
         },
         "sp500": {
           "ticker": "^GSPC",
@@ -64,11 +64,11 @@
       "datetime_jst": "2026-11-05T21:00:00+09:00",
       "forecast": "4.00%",
       "previous": "3.75%",
-      "actual_period": "2026-11-03",
+      "actual_period": "2026-11-04",
       "actual_first_release": "3.73%",
-      "actual_first_release_date": "2026-11-05",
+      "actual_first_release_date": "2026-11-06",
       "actual_latest": "3.73%",
-      "actual_latest_date": "2026-11-05",
+      "actual_latest_date": "2026-11-06",
       "was_revised": false,
       "data_note": null,
       "market_reaction": {
@@ -84,9 +84,9 @@
           "ticker": "^N225",
           "prev_date": "2026-11-04",
           "prev_close": 62188.6289,
-          "post_date": "2026-11-06",
-          "post_close": 57033.5391,
-          "change_pct": -8.289
+          "post_date": "2026-11-05",
+          "post_close": 61077.8984,
+          "change_pct": -1.786
         },
         "sp500": {
           "ticker": "^GSPC",
