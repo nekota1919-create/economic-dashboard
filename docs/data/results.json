@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T20:11:54.047832+00:00",
+  "generated_at": "2026-11-07T00:47:22.929257+00:00",
   "events": [
     {
       "indicator": "us_michigan_sentiment",
@@ -24,16 +24,16 @@
           "prev_date": "2026-11-05",
           "prev_close": 158.357,
           "post_date": "2026-11-06",
-          "post_close": 158.515,
-          "change_pct": 0.1
+          "post_close": 157.498,
+          "change_pct": -0.542
         },
         "sp500": {
           "ticker": "^GSPC",
           "prev_date": "2026-11-05",
           "prev_close": 7353.73,
           "post_date": "2026-11-06",
-          "post_close": 7409.3198,
-          "change_pct": 0.756
+          "post_close": 7376.8599,
+          "change_pct": 0.315
         },
         "us10y": {
           "ticker": "^TNX",
@@ -69,16 +69,16 @@
           "prev_date": "2026-11-05",
           "prev_close": 158.357,
           "post_date": "2026-11-06",
-          "post_close": 158.515,
-          "change_pct": 0.1
+          "post_close": 157.498,
+          "change_pct": -0.542
         },
         "sp500": {
           "ticker": "^GSPC",
           "prev_date": "2026-11-05",
           "prev_close": 7353.73,
           "post_date": "2026-11-06",
-          "post_close": 7409.3198,
-          "change_pct": 0.756
+          "post_close": 7376.8599,
+          "change_pct": 0.315
         },
         "us10y": {
           "ticker": "^TNX",
@@ -114,16 +114,16 @@
           "prev_date": "2026-11-05",
           "prev_close": 158.357,
           "post_date": "2026-11-06",
-          "post_close": 158.515,
-          "change_pct": 0.1
+          "post_close": 157.498,
+          "change_pct": -0.542
         },
         "sp500": {
           "ticker": "^GSPC",
           "prev_date": "2026-11-05",
           "prev_close": 7353.73,
           "post_date": "2026-11-06",
-          "post_close": 7409.3198,
-          "change_pct": 0.756
+          "post_close": 7376.8599,
+          "change_pct": 0.315
         },
         "us10y": {
           "ticker": "^TNX",
