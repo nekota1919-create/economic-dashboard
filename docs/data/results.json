@@ -1,6 +1,51 @@
 {
-  "generated_at": "2026-11-10T11:53:39.410733+00:00",
+  "generated_at": "2026-11-10T20:39:58.434017+00:00",
   "events": [
+    {
+      "indicator": "us_cpi",
+      "label": "米CPI(消費者物価指数・前年比)",
+      "country": "US",
+      "ff_title": "CPI m/m",
+      "impact": "High",
+      "datetime_utc": "2026-11-10T13:30:00+00:00",
+      "datetime_jst": "2026-11-10T22:30:00+09:00",
+      "forecast": "0.3%",
+      "previous": "0.6%",
+      "actual_period": "2026-09-01",
+      "actual_first_release": "3.72%",
+      "actual_first_release_date": "2026-10-14",
+      "actual_latest": "3.72%",
+      "actual_latest_date": "2026-11-10",
+      "was_revised": false,
+      "data_note": null,
+      "market_reaction": {
+        "usdjpy": {
+          "ticker": "JPY=X",
+          "prev_date": "2026-11-09",
+          "prev_close": 158.292,
+          "post_date": "2026-11-10",
+          "post_close": 158.802,
+          "change_pct": 0.322
+        },
+        "sp500": {
+          "ticker": "^GSPC",
+          "prev_date": "2026-11-09",
+          "prev_close": 7549.9399,
+          "post_date": "2026-11-10",
+          "post_close": 7515.1201,
+          "change_pct": -0.461
+        },
+        "us10y": {
+          "ticker": "^TNX",
+          "prev_date": "2026-11-09",
+          "prev_close": 4.864,
+          "post_date": "2026-11-10",
+          "post_close": 4.983,
+          "change_pct": 2.447
+        }
+      },
+      "beat_forecast": true
+    },
     {
       "indicator": "us_michigan_sentiment",
       "label": "米ミシガン大学消費者信頼感指数",
