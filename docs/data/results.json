@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T01:08:57.455434+00:00",
+  "generated_at": "2026-11-11T11:30:07.065598+00:00",
   "events": [
     {
       "indicator": "us_cpi",
@@ -31,9 +31,9 @@
           "ticker": "^N225",
           "prev_date": "2026-11-09",
           "prev_close": 58775.5,
-          "post_date": "2026-11-11",
-          "post_close": 60790.4219,
-          "change_pct": 3.428
+          "post_date": "2026-11-10",
+          "post_close": 60459.5781,
+          "change_pct": 2.865
         },
         "sp500": {
           "ticker": "^GSPC",
