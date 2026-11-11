@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T20:39:58.434017+00:00",
+  "generated_at": "2026-11-11T01:08:57.455434+00:00",
   "events": [
     {
       "indicator": "us_cpi",
@@ -24,16 +24,24 @@
           "prev_date": "2026-11-09",
           "prev_close": 158.292,
           "post_date": "2026-11-10",
-          "post_close": 158.802,
-          "change_pct": 0.322
+          "post_close": 157.983,
+          "change_pct": -0.195
+        },
+        "nikkei225": {
+          "ticker": "^N225",
+          "prev_date": "2026-11-09",
+          "prev_close": 58775.5,
+          "post_date": "2026-11-11",
+          "post_close": 60790.4219,
+          "change_pct": 3.428
         },
         "sp500": {
           "ticker": "^GSPC",
           "prev_date": "2026-11-09",
           "prev_close": 7549.9399,
           "post_date": "2026-11-10",
-          "post_close": 7515.1201,
-          "change_pct": -0.461
+          "post_close": 7520.9302,
+          "change_pct": -0.384
         },
         "us10y": {
           "ticker": "^TNX",
