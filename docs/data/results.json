@@ -1,6 +1,51 @@
 {
-  "generated_at": "2026-11-13T11:39:22.826631+00:00",
+  "generated_at": "2026-11-13T20:43:21.333658+00:00",
   "events": [
+    {
+      "indicator": "us_ppi",
+      "label": "米PPI(生産者物価指数・前月比)",
+      "country": "US",
+      "ff_title": "PPI m/m",
+      "impact": "High",
+      "datetime_utc": "2026-11-13T13:30:00+00:00",
+      "datetime_jst": "2026-11-13T22:30:00+09:00",
+      "forecast": "0.4%",
+      "previous": "1.3%",
+      "actual_period": "2026-10-01",
+      "actual_first_release": "0.35%",
+      "actual_first_release_date": "2026-11-13",
+      "actual_latest": "0.35%",
+      "actual_latest_date": "2026-11-13",
+      "was_revised": false,
+      "data_note": null,
+      "market_reaction": {
+        "usdjpy": {
+          "ticker": "JPY=X",
+          "prev_date": "2026-11-12",
+          "prev_close": 159.734,
+          "post_date": "2026-11-13",
+          "post_close": 159.815,
+          "change_pct": 0.051
+        },
+        "sp500": {
+          "ticker": "^GSPC",
+          "prev_date": "2026-11-12",
+          "prev_close": 7592.3999,
+          "post_date": "2026-11-13",
+          "post_close": 7547.1699,
+          "change_pct": -0.596
+        },
+        "us10y": {
+          "ticker": "^TNX",
+          "prev_date": "2026-11-12",
+          "prev_close": 5.103,
+          "post_date": "2026-11-13",
+          "post_close": 5.154,
+          "change_pct": 0.999
+        }
+      },
+      "beat_forecast": false
+    },
     {
       "indicator": "us_jobless_claims",
       "label": "米新規失業保険申請件数",
