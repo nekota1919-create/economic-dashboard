@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T21:16:12.517239+00:00",
+  "generated_at": "2026-11-13T01:44:00.570347+00:00",
   "events": [
     {
       "indicator": "us_jobless_claims",
@@ -24,8 +24,16 @@
           "prev_date": "2026-11-11",
           "prev_close": 158.705,
           "post_date": "2026-11-12",
-          "post_close": 159.854,
-          "change_pct": 0.724
+          "post_close": 159.734,
+          "change_pct": 0.648
+        },
+        "nikkei225": {
+          "ticker": "^N225",
+          "prev_date": "2026-11-11",
+          "prev_close": 61248.5898,
+          "post_date": "2026-11-13",
+          "post_close": 61724.9414,
+          "change_pct": 0.778
         },
         "sp500": {
           "ticker": "^GSPC",
