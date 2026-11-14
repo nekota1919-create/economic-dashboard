@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T20:43:21.333658+00:00",
+  "generated_at": "2026-11-14T01:21:50.826046+00:00",
   "events": [
     {
       "indicator": "us_ppi",
@@ -24,16 +24,16 @@
           "prev_date": "2026-11-12",
           "prev_close": 159.734,
           "post_date": "2026-11-13",
-          "post_close": 159.815,
-          "change_pct": 0.051
+          "post_close": 159.875,
+          "change_pct": 0.088
         },
         "sp500": {
           "ticker": "^GSPC",
           "prev_date": "2026-11-12",
           "prev_close": 7592.3999,
           "post_date": "2026-11-13",
-          "post_close": 7547.1699,
-          "change_pct": -0.596
+          "post_close": 7561.6699,
+          "change_pct": -0.405
         },
         "us10y": {
           "ticker": "^TNX",
