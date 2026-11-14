@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T01:21:50.826046+00:00",
+  "generated_at": "2026-11-14T11:00:26.611703+00:00",
   "events": [
     {
       "indicator": "us_ppi",
@@ -26,6 +26,14 @@
           "post_date": "2026-11-13",
           "post_close": 159.875,
           "change_pct": 0.088
+        },
+        "nikkei225": {
+          "ticker": "^N225",
+          "prev_date": "2026-11-12",
+          "prev_close": 60819.3594,
+          "post_date": "2026-11-13",
+          "post_close": 61142.3516,
+          "change_pct": 0.531
         },
         "sp500": {
           "ticker": "^GSPC",
