@@ -1,6 +1,51 @@
 {
-  "generated_at": "2026-11-17T12:33:20.293278+00:00",
+  "generated_at": "2026-11-17T21:58:30.258693+00:00",
   "events": [
+    {
+      "indicator": "us_retail_sales",
+      "label": "米小売売上高(前月比)",
+      "country": "US",
+      "ff_title": "Retail Sales m/m",
+      "impact": "High",
+      "datetime_utc": "2026-11-17T13:30:00+00:00",
+      "datetime_jst": "2026-11-17T22:30:00+09:00",
+      "forecast": "0.1%",
+      "previous": "0.8%",
+      "actual_period": "2026-10-01",
+      "actual_first_release": "0.21%",
+      "actual_first_release_date": "2026-11-17",
+      "actual_latest": "0.21%",
+      "actual_latest_date": "2026-11-17",
+      "was_revised": false,
+      "data_note": null,
+      "market_reaction": {
+        "usdjpy": {
+          "ticker": "JPY=X",
+          "prev_date": "2026-11-16",
+          "prev_close": 159.78,
+          "post_date": "2026-11-17",
+          "post_close": 159.365,
+          "change_pct": -0.26
+        },
+        "sp500": {
+          "ticker": "^GSPC",
+          "prev_date": "2026-11-16",
+          "prev_close": 7416.5898,
+          "post_date": "2026-11-17",
+          "post_close": 7340.5298,
+          "change_pct": -1.026
+        },
+        "us10y": {
+          "ticker": "^TNX",
+          "prev_date": "2026-11-16",
+          "prev_close": 5.121,
+          "post_date": "2026-11-17",
+          "post_close": 5.103,
+          "change_pct": -0.351
+        }
+      },
+      "beat_forecast": true
+    },
     {
       "indicator": "us_ppi",
       "label": "米PPI(生産者物価指数・前月比)",
