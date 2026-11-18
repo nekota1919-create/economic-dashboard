@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T21:58:30.258693+00:00",
+  "generated_at": "2026-11-18T02:48:36.732896+00:00",
   "events": [
     {
       "indicator": "us_retail_sales",
@@ -24,8 +24,16 @@
           "prev_date": "2026-11-16",
           "prev_close": 159.78,
           "post_date": "2026-11-17",
-          "post_close": 159.365,
-          "change_pct": -0.26
+          "post_close": 159.523,
+          "change_pct": -0.161
+        },
+        "nikkei225": {
+          "ticker": "^N225",
+          "prev_date": "2026-11-16",
+          "prev_close": 59662.0195,
+          "post_date": "2026-11-17",
+          "post_close": 58860.4297,
+          "change_pct": -1.344
         },
         "sp500": {
           "ticker": "^GSPC",
