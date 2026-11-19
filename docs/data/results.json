@@ -1,6 +1,51 @@
 {
-  "generated_at": "2026-11-19T12:16:18.329499+00:00",
+  "generated_at": "2026-11-19T21:56:24.966221+00:00",
   "events": [
+    {
+      "indicator": "us_jobless_claims",
+      "label": "米新規失業保険申請件数",
+      "country": "US",
+      "ff_title": "Unemployment Claims",
+      "impact": "Medium",
+      "datetime_utc": "2026-11-19T13:30:00+00:00",
+      "datetime_jst": "2026-11-19T22:30:00+09:00",
+      "forecast": "198K",
+      "previous": "200K",
+      "actual_period": "2026-11-14",
+      "actual_first_release": "203K",
+      "actual_first_release_date": "2026-11-19",
+      "actual_latest": "203K",
+      "actual_latest_date": "2026-11-19",
+      "was_revised": false,
+      "data_note": null,
+      "market_reaction": {
+        "usdjpy": {
+          "ticker": "JPY=X",
+          "prev_date": "2026-11-18",
+          "prev_close": 159.504,
+          "post_date": "2026-11-19",
+          "post_close": 159.679,
+          "change_pct": 0.11
+        },
+        "sp500": {
+          "ticker": "^GSPC",
+          "prev_date": "2026-11-18",
+          "prev_close": 7323.6299,
+          "post_date": "2026-11-19",
+          "post_close": 7175.8301,
+          "change_pct": -2.018
+        },
+        "us10y": {
+          "ticker": "^TNX",
+          "prev_date": "2026-11-18",
+          "prev_close": 5.066,
+          "post_date": "2026-11-19",
+          "post_close": 5.052,
+          "change_pct": -0.276
+        }
+      },
+      "beat_forecast": true
+    },
     {
       "indicator": "us_retail_sales",
       "label": "米小売売上高(前月比)",
