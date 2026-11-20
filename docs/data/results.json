@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T02:09:59.107281+00:00",
+  "generated_at": "2026-11-20T12:16:32.664758+00:00",
   "events": [
     {
       "indicator": "us_jobless_claims",
@@ -31,9 +31,9 @@
           "ticker": "^N225",
           "prev_date": "2026-11-18",
           "prev_close": 59024.2812,
-          "post_date": "2026-11-20",
-          "post_close": 56757.6016,
-          "change_pct": -3.84
+          "post_date": "2026-11-19",
+          "post_close": 59444.2109,
+          "change_pct": 0.711
         },
         "sp500": {
           "ticker": "^GSPC",
