@@ -1,6 +1,51 @@
 {
-  "generated_at": "2026-11-20T12:16:32.664758+00:00",
+  "generated_at": "2026-11-20T21:38:40.948023+00:00",
   "events": [
+    {
+      "indicator": "us_michigan_sentiment",
+      "label": "米ミシガン大学消費者信頼感指数",
+      "country": "US",
+      "ff_title": "Revised UoM Consumer Sentiment",
+      "impact": "Medium",
+      "datetime_utc": "2026-11-20T15:00:00+00:00",
+      "datetime_jst": "2026-11-21T00:00:00+09:00",
+      "forecast": "51.7",
+      "previous": "51.0",
+      "actual_period": "2026-10-01",
+      "actual_first_release": "48",
+      "actual_first_release_date": "2026-10-23",
+      "actual_latest": "48",
+      "actual_latest_date": "2026-10-23",
+      "was_revised": false,
+      "data_note": null,
+      "market_reaction": {
+        "usdjpy": {
+          "ticker": "JPY=X",
+          "prev_date": "2026-11-19",
+          "prev_close": 159.381,
+          "post_date": "2026-11-20",
+          "post_close": 158.595,
+          "change_pct": -0.493
+        },
+        "sp500": {
+          "ticker": "^GSPC",
+          "prev_date": "2026-11-19",
+          "prev_close": 7175.8301,
+          "post_date": "2026-11-20",
+          "post_close": 6910.3901,
+          "change_pct": -3.699
+        },
+        "us10y": {
+          "ticker": "^TNX",
+          "prev_date": "2026-11-19",
+          "prev_close": 5.052,
+          "post_date": "2026-11-20",
+          "post_close": 4.912,
+          "change_pct": -2.771
+        }
+      },
+      "beat_forecast": false
+    },
     {
       "indicator": "us_jobless_claims",
       "label": "米新規失業保険申請件数",
