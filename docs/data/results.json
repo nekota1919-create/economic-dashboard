@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T02:03:19.398248+00:00",
+  "generated_at": "2026-11-21T11:51:22.510236+00:00",
   "events": [
     {
       "indicator": "us_michigan_sentiment",
@@ -26,6 +26,14 @@
           "post_date": "2026-11-20",
           "post_close": 159.707,
           "change_pct": 0.205
+        },
+        "nikkei225": {
+          "ticker": "^N225",
+          "prev_date": "2026-11-19",
+          "prev_close": 59444.2109,
+          "post_date": "2026-11-20",
+          "post_close": 56436.6484,
+          "change_pct": -5.059
         },
         "sp500": {
           "ticker": "^GSPC",
