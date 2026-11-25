@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T13:39:56.754124+00:00",
+  "generated_at": "2026-11-25T22:53:23.361589+00:00",
   "events": [
     {
       "indicator": "us_pce",
@@ -11,11 +11,11 @@
       "datetime_jst": "2026-11-25T22:30:00+09:00",
       "forecast": "0.3%",
       "previous": "0.3%",
-      "actual_period": "2026-09-01",
-      "actual_first_release": "0.32%",
-      "actual_first_release_date": "2026-10-29",
-      "actual_latest": "0.32%",
-      "actual_latest_date": "2026-10-29",
+      "actual_period": "2026-10-01",
+      "actual_first_release": "0.29%",
+      "actual_first_release_date": "2026-11-25",
+      "actual_latest": "0.29%",
+      "actual_latest_date": "2026-11-25",
       "was_revised": false,
       "data_note": null,
       "market_reaction": {
@@ -24,27 +24,27 @@
           "prev_date": "2026-11-24",
           "prev_close": 159.009,
           "post_date": "2026-11-25",
-          "post_close": 159.241,
-          "change_pct": 0.146
+          "post_close": 159.083,
+          "change_pct": 0.047
         },
-        "nikkei225": {
-          "ticker": "^N225",
+        "sp500": {
+          "ticker": "^GSPC",
           "prev_date": "2026-11-24",
-          "prev_close": 58644.6289,
+          "prev_close": 7201.0898,
           "post_date": "2026-11-25",
-          "post_close": 57011.6211,
-          "change_pct": -2.785
+          "post_close": 7182.7798,
+          "change_pct": -0.254
         },
         "us10y": {
           "ticker": "^TNX",
           "prev_date": "2026-11-24",
           "prev_close": 4.904,
           "post_date": "2026-11-25",
-          "post_close": 4.844,
-          "change_pct": -1.223
+          "post_close": 4.848,
+          "change_pct": -1.142
         }
       },
-      "beat_forecast": true
+      "beat_forecast": false
     },
     {
       "indicator": "us_gdp",
@@ -59,9 +59,9 @@
       "actual_period": "2026-07-01",
       "actual_first_release": "3.4%",
       "actual_first_release_date": "2026-10-29",
-      "actual_latest": "3.4%",
-      "actual_latest_date": "2026-10-29",
-      "was_revised": false,
+      "actual_latest": "4.3%",
+      "actual_latest_date": "2026-11-25",
+      "was_revised": true,
       "data_note": null,
       "market_reaction": {
         "usdjpy": {
@@ -69,24 +69,24 @@
           "prev_date": "2026-11-24",
           "prev_close": 159.009,
           "post_date": "2026-11-25",
-          "post_close": 159.241,
-          "change_pct": 0.146
+          "post_close": 159.083,
+          "change_pct": 0.047
         },
-        "nikkei225": {
-          "ticker": "^N225",
+        "sp500": {
+          "ticker": "^GSPC",
           "prev_date": "2026-11-24",
-          "prev_close": 58644.6289,
+          "prev_close": 7201.0898,
           "post_date": "2026-11-25",
-          "post_close": 57011.6211,
-          "change_pct": -2.785
+          "post_close": 7182.7798,
+          "change_pct": -0.254
         },
         "us10y": {
           "ticker": "^TNX",
           "prev_date": "2026-11-24",
           "prev_close": 4.904,
           "post_date": "2026-11-25",
-          "post_close": 4.844,
-          "change_pct": -1.223
+          "post_close": 4.848,
+          "change_pct": -1.142
         }
       },
       "beat_forecast": false
@@ -114,24 +114,24 @@
           "prev_date": "2026-11-24",
           "prev_close": 159.009,
           "post_date": "2026-11-25",
-          "post_close": 159.241,
-          "change_pct": 0.146
+          "post_close": 159.083,
+          "change_pct": 0.047
         },
-        "nikkei225": {
-          "ticker": "^N225",
+        "sp500": {
+          "ticker": "^GSPC",
           "prev_date": "2026-11-24",
-          "prev_close": 58644.6289,
+          "prev_close": 7201.0898,
           "post_date": "2026-11-25",
-          "post_close": 57011.6211,
-          "change_pct": -2.785
+          "post_close": 7182.7798,
+          "change_pct": -0.254
         },
         "us10y": {
           "ticker": "^TNX",
           "prev_date": "2026-11-24",
           "prev_close": 4.904,
           "post_date": "2026-11-25",
-          "post_close": 4.844,
-          "change_pct": -1.223
+          "post_close": 4.848,
+          "change_pct": -1.142
         }
       },
       "beat_forecast": false
