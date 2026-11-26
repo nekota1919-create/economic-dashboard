@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T22:53:23.361589+00:00",
+  "generated_at": "2026-11-26T03:26:53.705850+00:00",
   "events": [
     {
       "indicator": "us_pce",
@@ -24,8 +24,16 @@
           "prev_date": "2026-11-24",
           "prev_close": 159.009,
           "post_date": "2026-11-25",
-          "post_close": 159.083,
-          "change_pct": 0.047
+          "post_close": 159.262,
+          "change_pct": 0.159
+        },
+        "nikkei225": {
+          "ticker": "^N225",
+          "prev_date": "2026-11-24",
+          "prev_close": 58644.6289,
+          "post_date": "2026-11-25",
+          "post_close": 57011.6211,
+          "change_pct": -2.785
         },
         "sp500": {
           "ticker": "^GSPC",
@@ -69,8 +77,16 @@
           "prev_date": "2026-11-24",
           "prev_close": 159.009,
           "post_date": "2026-11-25",
-          "post_close": 159.083,
-          "change_pct": 0.047
+          "post_close": 159.262,
+          "change_pct": 0.159
+        },
+        "nikkei225": {
+          "ticker": "^N225",
+          "prev_date": "2026-11-24",
+          "prev_close": 58644.6289,
+          "post_date": "2026-11-25",
+          "post_close": 57011.6211,
+          "change_pct": -2.785
         },
         "sp500": {
           "ticker": "^GSPC",
@@ -114,8 +130,16 @@
           "prev_date": "2026-11-24",
           "prev_close": 159.009,
           "post_date": "2026-11-25",
-          "post_close": 159.083,
-          "change_pct": 0.047
+          "post_close": 159.262,
+          "change_pct": 0.159
+        },
+        "nikkei225": {
+          "ticker": "^N225",
+          "prev_date": "2026-11-24",
+          "prev_close": 58644.6289,
+          "post_date": "2026-11-25",
+          "post_close": 57011.6211,
+          "change_pct": -2.785
         },
         "sp500": {
           "ticker": "^GSPC",
