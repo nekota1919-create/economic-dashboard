@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T13:14:14.793295+00:00",
+  "generated_at": "2026-11-27T22:26:22.843845+00:00",
   "events": [
     {
       "indicator": "jp_cpi",
@@ -31,6 +31,22 @@
           "post_date": "2026-11-26",
           "post_close": 57499.1602,
           "change_pct": 0.855
+        },
+        "sp500": {
+          "ticker": "^GSPC",
+          "prev_date": "2026-11-25",
+          "prev_close": 7182.7798,
+          "post_date": "2026-11-27",
+          "post_close": 7297.4902,
+          "change_pct": 1.597
+        },
+        "us10y": {
+          "ticker": "^TNX",
+          "prev_date": "2026-11-25",
+          "prev_close": 4.848,
+          "post_date": "2026-11-27",
+          "post_close": 4.936,
+          "change_pct": 1.815
         }
       },
       "beat_forecast": null
