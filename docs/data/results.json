@@ -1,6 +1,40 @@
 {
-  "generated_at": "2026-11-26T22:44:04.483052+00:00",
+  "generated_at": "2026-11-27T03:34:25.979489+00:00",
   "events": [
+    {
+      "indicator": "jp_cpi",
+      "label": "日CPI(全国消費者物価指数)",
+      "country": "JP",
+      "ff_title": "Tokyo Core CPI y/y",
+      "impact": "Medium",
+      "datetime_utc": "2026-11-26T23:30:00+00:00",
+      "datetime_jst": "2026-11-27T08:30:00+09:00",
+      "forecast": "3.0%",
+      "previous": "2.6%",
+      "actual_first_release": null,
+      "actual_latest": null,
+      "was_revised": null,
+      "data_note": "e-Stat未連携のため実績値は未取得(今後対応予定)",
+      "market_reaction": {
+        "usdjpy": {
+          "ticker": "JPY=X",
+          "prev_date": "2026-11-25",
+          "prev_close": 159.262,
+          "post_date": "2026-11-26",
+          "post_close": 159.215,
+          "change_pct": -0.03
+        },
+        "nikkei225": {
+          "ticker": "^N225",
+          "prev_date": "2026-11-25",
+          "prev_close": 57011.6211,
+          "post_date": "2026-11-26",
+          "post_close": 57499.1602,
+          "change_pct": 0.855
+        }
+      },
+      "beat_forecast": null
+    },
     {
       "indicator": "us_pce",
       "label": "米PCEコア物価指数(前月比)",
